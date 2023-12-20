@@ -9,6 +9,7 @@
         <row>
             <button type="page" label="Caracterização" targetlayout="caracterizacao" icon="avaliacao_cicloviaria_icons/flow_direction.png"/>
             <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png"/>
+            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png"/>
         </row>
         <row>
             <button type="voicerec" icon="logo_voice"/>
@@ -118,6 +119,52 @@
         <row>
             <button type="tag" label="Pintura" />
             <button type="tag" label="outros" />
+        </row>
+    </layout>
+
+    <!-- Página Avaliações -->
+    <layout name="avaliacoes">
+        <row>
+            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" />
+            <button type="page" label="Sombreamento" targetlayout="sombreamento" />
+        </row>
+    </layout>
+
+    <!-- Página Sinuosidade -->
+    <layout name="sinuosidade">
+        <row>
+            <button type="tag" label="O traçado é sinuoso, exigindo atenção" />
+        </row>
+        <row>
+            <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
+        </row>
+        <row>
+            <button type="tag" label="O traçado possui curvas com obstáculos que impedem visualização" />
+        </row>
+        <row>
+            <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
+        </row>
+    </layout>
+
+    <!-- Página Sombreamento -->
+    <layout name="sombreamento">
+        <row>
+            <button type="tag" label="Sombras em PRATICAMENTE TODA a extensão" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras na MAIOR PARTE da extensão" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras em alguns trechos, COM mudas plantadas" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras em alguns trechos, SEM mudas novas" />
+        </row>
+        <row>
+            <button type="tag" label="Somente mudas novas" />
+        </row>
+        <row>
+            <button type="tag" label="Não há árvores nem mudas" />
         </row>
     </layout>
 </layouts>
