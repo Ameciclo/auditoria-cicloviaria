@@ -13,7 +13,7 @@
             <!-- Adicionar mais botões de página para outras seções principais -->
         </row>
     </layout>
-
+    
     <!-- Tipo de Estrutura layout -->
     <layout name="tipo_de_estrutura">
         <row>
