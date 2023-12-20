@@ -1,0 +1,48 @@
+<layouts>
+    <!-- Main layout -->
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="page" label="Tipo de Estrutura" targetlayout="tipo_de_estrutura" />
+            <button type="page" label="Fluxo da Estrutura" targetlayout="fluxo_da_estrutura" />
+            <button type="page" label="Fluxo da Via" targetlayout="fluxo_da_via" />
+            <!-- Adicionar mais botões de página para outras seções principais -->
+        </row>
+    </layout>
+
+    <!-- Tipo de Estrutura layout -->
+    <layout name="tipo_de_estrutura">
+        <row>
+            <button type="tag" label="Ciclovia" />
+            <button type="tag" label="Ciclofaixa" />
+            <button type="tag" label="Ciclorrota" />
+            <button type="tag" label="Calçada compartilhada" />
+        </row>
+    </layout>
+
+    <!-- Fluxo da Estrutura layout -->
+    <layout name="fluxo_da_estrutura">
+        <row>
+            <button type="tag" label="Bidirecional" />
+            <button type="tag" label="Bidirecional com MÃO INGLESA na estrutura" />
+            <button type="tag" label="Unidirecional no fluxo dos automóveis" />
+            <button type="tag" label="Unidirecional no contrafluxo dos automóveis" />
+        </row>
+    </layout>
+
+    <!-- Fluxo da Via layout -->
+    <layout name="fluxo_da_via">
+        <row>
+            <button type="tag" label="Mão única" />
+            <button type="tag" label="Mão dupla" />
+            <button type="tag" label="Mão inglesa" />
+        </row>
+    </layout>
+
+    <!-- Layouts adicionais para outras seções -->
+
+</layouts>
