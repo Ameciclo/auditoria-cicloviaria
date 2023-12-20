@@ -2,46 +2,89 @@
     <!-- Main layout -->
     <layout name="root">
         <row>
-            <button type="voicerec" icon="logo_voice"/>
-            <button type="picture" icon="logo_camera"/>
-            <button type="textnote" icon="logo_textnote"/>
-        </row>
-        <row>
-            <button type="page" label="Tipo de Estrutura" targetlayout="tipo_de_estrutura" />
-            <button type="page" label="Fluxo da Estrutura" targetlayout="fluxo_da_estrutura" />
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo_da_via" />
-            <!-- Adicionar mais botões de página para outras seções principais -->
+            <button type="page" label="Placas" targetlayout="placas" />
+            <button type="page" label="Obstáculos" targetlayout="obstaculos" />
+            <button type="page" label="Riscos" targetlayout="riscos" />
+            <button type="page" label="Caracterização" targetlayout="caracterizacao" />
+            <button type="page" label="Segregadores" targetlayout="segregadores" />
         </row>
     </layout>
-    <!-- Tipo de Estrutura layout -->
-    <layout name="tipo_de_estrutura">
+
+    <!-- Placas layout -->
+    <layout name="placas">
+        <row>
+            <button type="tag" label="R-34" />
+            <button type="tag" label="A-30" />
+            <button type="tag" label="Início" />
+            <button type="tag" label="Fim" />
+            <button type="tag" label="Direções" />
+            <button type="tag" label="20km/h" />
+            <button type="tag" label="30km/h" />
+            <button type="tag" label="40km/h" />
+            <button type="tag" label="50km/h" />
+            <button type="tag" label="60km/h" />
+        </row>
+    </layout>
+
+    <!-- Obstáculos layout -->
+    <layout name="obstaculos">
+        <row>
+            <button type="tag" label="Bueiro" />
+            <button type="tag" label="Raíz" />
+            <button type="tag" label="Buraco" />
+            <button type="tag" label="Vala profunda" />
+            <button type="tag" label="Desnível" />
+            <button type="tag" label="Outro" />
+        </row>
+    </layout>
+
+    <!-- Riscos layout -->
+    <layout name="riscos">
+        <row>
+            <button type="tag" label="Paradas de ônibus" />
+            <button type="tag" label="Cruzamento perigoso" />
+            <button type="tag" label="Invasão na conversão" />
+            <button type="tag" label="Troca de lado" />
+            <button type="tag" label="Invisibilidade à esquerda" />
+            <button type="tag" label="Fim em contrafluxo" />
+            <button type="tag" label="Outro" />
+        </row>
+    </layout>
+
+    <!-- Caracterização layout -->
+    <layout name="caracterizacao">
         <row>
             <button type="tag" label="Ciclovia" />
             <button type="tag" label="Ciclofaixa" />
             <button type="tag" label="Ciclorrota" />
             <button type="tag" label="Calçada compartilhada" />
-        </row>
-    </layout>
-
-    <!-- Fluxo da Estrutura layout -->
-    <layout name="fluxo_da_estrutura">
-        <row>
             <button type="tag" label="Bidirecional" />
-            <button type="tag" label="Bidirecional com MÃO INGLESA na estrutura" />
-            <button type="tag" label="Unidirecional no fluxo dos automóveis" />
-            <button type="tag" label="Unidirecional no contrafluxo dos automóveis" />
-        </row>
-    </layout>
-
-    <!-- Fluxo da Via layout -->
-    <layout name="fluxo_da_via">
-        <row>
+            <button type="tag" label="Bidirecional com Mão Inglesa" />
+            <button type="tag" label="Unidirecional no fluxo" />
+            <button type="tag" label="Unidirecional no contrafluxo" />
+            <button type="tag" label="No canteiro central" />
+            <button type="tag" label="Na via, junto ao canteiro" />
+            <button type="tag" label="No bordo direito de MU" />
+            <button type="tag" label="No bordo esquerdo de MU" />
+            <button type="tag" label="Em bordo de MD" />
+            <button type="tag" label="Sobre calçada" />
+            <button type="tag" label="Isolada" />
             <button type="tag" label="Mão única" />
             <button type="tag" label="Mão dupla" />
             <button type="tag" label="Mão inglesa" />
         </row>
     </layout>
 
-    <!-- Layouts adicionais para outras seções -->
-
+    <!-- Segregadores layout -->
+    <layout name="segregadores">
+        <row>
+            <button type="tag" label="Canteiros" />
+            <button type="tag" label="Prismas" />
+            <button type="tag" label="Guias" />
+            <button type="tag" label="Tachões" />
+            <button type="tag" label="Balizadores" />
+            <button type="tag" label="Pintura" />
+            <button type="tag" label="outros" />
+        </row>
+    </layout>
 </layouts>
