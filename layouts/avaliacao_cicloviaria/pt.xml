@@ -27,8 +27,10 @@
     <!-- Placas layout -->
     <layout name="placas">
         <row>
-            <button type="tag" label="R-34"  icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png"/>
-            <button type="tag" label="A-30"  icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png"/>
+            <button type="tag" label="R-34"
+                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="tag" label="A-30"
+                icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
             <button type="tag" label="Complementar" />
         </row>
         <row>
@@ -38,7 +40,7 @@
         </row>
         <row>
             <button type="tag" label="20km/h" />
-            <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png"/>
+            <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
             <button type="tag" label="40km/h" />
         </row>
         <row>
@@ -223,6 +225,62 @@
         </row>
     </layout>
 
+    <layouts>
+        <!-- Page Estacionamento na Via -->
+        <layout name="estacionamento_na_via">
+            <row>
+                <button type="tag" label="Estacionamento proibido na via" />
+            </row>
+            <row>
+                <button type="tag"
+                    label="Estacionamento dedicado de um lado, segregado da circulação" />
+            </row>
+            <row>
+                <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação" />
+            </row>
+            <row>
+                <button type="tag" label="Estacionamento dedicado dos dois lados" />
+            </row>
+        </layout>
+
+        <!-- Page Padrão de Pintura Vermelha -->
+        <layout name="padrao_de_pintura_vermelha">
+            <row>
+                <button type="tag" label="Toda área de circulação pintada de vermelho" />
+            </row>
+            <row>
+                <button type="tag" label="Pintada de vermelho com interrupções" />
+            </row>
+            <row>
+                <button type="tag"
+                    label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
+            </row>
+            <row>
+                <button type="tag" label="Apenas faixas vermelhas nas bordas" />
+            </row>
+        </layout>
+
+        <!-- Page Situação da Pintura Vermelha -->
+        <layout name="situacao_da_pintura_vermelha">
+            <row>
+                <button type="tag" label="A pintura está boa, COMPLETA e visível" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura está boa, mas FALHA em ALGUNS pontos" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura é falha em VÁRIOS pontos" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura é MUITO falha, mostrando muito asfalto" />
+            </row>
+            <row>
+                <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" />
+            </row>
+        </layout>
+    </layouts>
+
+
     <!-- Página Sombreamento -->
     <layout name="sombreamento">
         <row>
@@ -242,6 +300,63 @@
         </row>
         <row>
             <button type="tag" label="Não há árvores nem mudas" />
+        </row>
+    </layout>
+
+    <!-- Page Proteção Contra Invasão de Automóvel -->
+    <layout name="protecao_contra_invasao_de_automovel">
+        <row>
+            <button type="tag" label="Segregação impede completamente a invasão de automóvel" />
+        </row>
+        <row>
+            <button type="tag"
+                label="Impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+        </row>
+        <row>
+            <button type="tag" label="Poucos trechos SEM segregadores dificultando invasão" />
+        </row>
+        <row>
+            <button type="tag" label="Poucos trechos COM segregadores dificultando invasão" />
+        </row>
+        <row>
+            <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
+        </row>
+    </layout>
+
+    <!-- Page Segregadores -->
+    <layout name="segregadores_acesso">
+        <row>
+            <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
+        </row>
+        <row>
+            <button type="tag" label="Segregadores DIFICULTAM o acesso parcialmente" />
+        </row>
+        <row>
+            <button type="tag" label="Segregadores IMPEDEM o acesso" />
+        </row>
+    </layout>
+
+    <!-- Page Piso/Pavimento -->
+    <layout name="piso_pavimento">
+        <row>
+            <button type="tag" label="Concreto" />
+            <button type="tag" label="Asfalto" />
+            <button type="tag" label="Tijolo intertravado" />
+            <button type="tag" label="Paralelepípedo rejuntado com cimento" />
+            <button type="tag" label="Terra/Barro" />
+            <button type="tag" label="Outro" />
+        </row>
+    </layout>
+
+    <!-- Page Situação de Conservação do Pavimento -->
+    <layout name="situacao_conservacao_pavimento">
+        <row>
+            <button type="tag" label="Bom estado" />
+            <button type="tag" label="Pequenas imperfeições, como fissuras" />
+            <button type="tag" label="Irregularidades que demandam desvio para circulação" />
+            <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
+            <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
+            <button type="tag" label="Totalmente destruído, impossível transitar" />
         </row>
     </layout>
 </layouts>
