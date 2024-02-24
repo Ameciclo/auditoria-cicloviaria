@@ -15,12 +15,12 @@
             <button type="page" label="Segregadores" targetlayout="segregadores"
                 icon="avaliacao_cicloviaria_icons/segregator_type.png" />
             <button type="page" label="Avaliações" targetlayout="avaliacoes"
-                icon="avaliacao_cicloviaria_icons/painting_condition.png" />
+                icon="avaliacao_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
             <button type="picture" icon="logo_camera" />
-            <button type="textnote" icon="logo_textnote" /> AZUL
+            <button type="textnote" icon="logo_textnote" />
         </row>
     </layout>
 
@@ -31,212 +31,123 @@
                 icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
             <button type="tag" label="A-30"
                 icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar"
-                icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
+            <button type="tag" label="Complementar" />
         </row>
         <row>
-            <button type="tag" label="Início"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="Fim"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="Semáforo exclusivo"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="tag" label="Início" />
+            <button type="tag" label="Fim" />
+            <button type="tag" label="Semáforo exclusivo" />
         </row>
         <row>
-            <button type="tag" label="20km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="20km/h" />
             <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
-            <button type="tag" label="40km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="40km/h" />
         </row>
         <row>
-            <button type="tag" label="50km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
-            <button type="tag" label="60km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
-            <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="50km/h" />
+            <button type="tag" label="60km/h" />
+            <button type="tag" label="80km/h" />
         </row>
     </layout>
 
     <!-- Obstáculos layout -->
     <layout name="obstaculos">
         <row>
-            <button type="tag" label="Bueiro" icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="tag" label="Raíz" icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="tag" label="Buraco" icon="avaliacao_cicloviaria_icons/obstacle.png" />
+            <button type="tag" label="Bueiro" />
+            <button type="tag" label="Raíz" />
+            <button type="tag" label="Buraco" />
         </row>
         <row>
-            <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/obstacle.png" />
+            <button type="tag" label="Vala profunda" />
+            <button type="tag" label="Desnível" />
+            <button type="tag" label="Outro" />
         </row>
     </layout>
 
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Paradas de ônibus"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="tag" label="Paradas de ônibus" />
+            <button type="tag" label="Cruzamento perigoso" />
         </row>
         <row>
-            <button type="tag"
-                label="Cruzamentos com veículos em curva de ângulo aberto e sem tratamento de redução de velocidade"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="tag" label="Invasão na conversão" />
+            <button type="tag" label="Troca de lado" />
         </row>
         <row>
-            <button type="tag"
-                label="Trajeto de conversão permite invasão de automóvel de trecho
-            de linha contínua da estrutura"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
-        </row>
-        <row>
-            <button type="tag"
-                label="Troca lado da estrutura sem redutores de velocidade ou semáforo"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
-        </row>
-        <row>
-            <button type="tag"
-                label="Conversão à esquerda de automóvel com invisibilidade de ciclista"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
-        </row>
-        <row>
-            <button type="tag" label="Fim repentino de estrutura no contrafluxo"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
-        </row>
-        <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="tag" label="Invisibilidade à esquerda" />
+            <button type="tag" label="Fim em contrafluxo" />
+            <button type="tag" label="Outro" />
         </row>
     </layout>
 
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button type="tag" label="Ciclovia"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="tag" label="Ciclofaixa"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="tag" label="Ciclorrota"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="tag" label="Calçada compartilhada"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="Ciclovia" />
+            <button type="tag" label="Ciclofaixa" />
+            <button type="tag" label="Ciclorrota" />
+            <button type="tag" label="Calçada compartilhada" />
         </row>
         <row>
-            <button type="page" label="Fluxo da ciclo" targetlayout="fluxo-ciclo"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Localização na Via" targetlayout="localizacao-via"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Fluxo da ciclo" targetlayout="fluxo-ciclo" />
+            <button type="page" label="Localização na Via" targetlayout="localizacao-via" />
         </row>
         <row>
-            <button type="page" label="Segregadores" targetlayout="segregadores"
-                icon="avaliacao_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Tipo de Pavimento" targetlayout="pavimento"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-        </row>
-        <row>
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Qtd faixas" targetlayout="faixas-via"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Estacionamentos" targetlayout="estacionamento-via"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-        </row>
-    </layout>
-
-    <!-- Fluxo da estrutura-->
-    <layout name="fluxo-ciclo">
-        <row>
-            <button type="tag" label="Bidirecional"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-        </row>
-        <row>
-            <button type="tag" label="Bidirecional com Mão Inglesa na estrutura"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-        </row>
-        <row>
-            <button type="tag" label="Unidirecional no fluxo"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-        </row>
-        <row>
-            <button type="tag" label="Unidirecional no contrafluxo"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" />
+            <button type="page" label="Qtd faixas" targetlayout="faixas-via" />
         </row>
     </layout>
 
     <!-- Localização da estrutura-->
     <layout name="localizacao-via">
         <row>
-            <button type="tag" label="No canteiro central"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="No canteiro central" />
         </row>
         <row>
-            <button type="tag" label="Na via, junto ao canteiro"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="Na via, junto ao canteiro" />
         </row>
         <row>
-            <button type="tag" label="No bordo direito de Mão Única"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="No bordo direito de Mão Única" />
         </row>
         <row>
-            <button type="tag" label="No bordo esquerdo de Mão Única"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="No bordo esquerdo de Mão Única" />
         </row>
         <row>
-            <button type="tag" label="Em bordo de Mão Dupla"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="Em bordo de Mão Dupla" />
         </row>
         <row>
-            <button type="tag" label="Sobre calçada"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="tag" label="Sobre calçada" />
+            <button type="tag" label="Isolada" />
         </row>
     </layout>
 
-    <!-- Segregadores -->
-    <layout name="segregadores">
+    <!-- Fluxo da estrutura-->
+    <layout name="fluxo-ciclo">
         <row>
-            <button type="tag" label="Canteiros"
-                icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="Prismas" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="Guias" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
+            <button type="tag" label="Bidirecional" />
         </row>
         <row>
-            <button type="tag" label="Gelo baiano"
-                icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="Tachões" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="Balizadores"
-                icon="avaliacao_cicloviaria_icons/segreator_type.png" />
+            <button type="tag" label="Bidirecional com Mão Inglesa na estrutura" />
         </row>
         <row>
-            <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="🎨 outros" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
+            <button type="tag" label="Unidirecional no fluxo" />
         </row>
-    </layout>
-
-    <!-- Page Piso/Pavimento -->
-    <layout name="piso_pavimento">
         <row>
-            <button type="tag" label="Concreto"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-            <button type="tag" label="Asfalto" icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-            <button type="tag" label="Tijolo intertravado"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-            <button type="tag" label="Paralelepípedo rejuntado com cimento"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-            <button type="tag" label="Terra/Barro"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
+            <button type="tag" label="Unidirecional no contrafluxo" />
         </row>
     </layout>
 
     <!-- Fluxo da via-->
     <layout name="fluxo-via">
         <row>
-            <button type="tag" label="Mão única"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
+            <button type="tag" label="Mão única" />
         </row>
         <row>
-            <button type="tag" label="Mão dupla"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
+            <button type="tag" label="Mão dupla" />
         </row>
         <row>
-            <button type="tag" label="Mão inglesa"
-                icon="avaliacao_cicloviaria_icons/pavemente_type.png" />
+            <button type="tag" label="Mão inglesa" />
         </row>
     </layout>
 
@@ -271,46 +182,124 @@
         </row>
     </layout>
 
-
-    <!-- Page Estacionamento na Via -->
-    <layout name="estacionamento-via">
+    <!-- Segregadores layout -->
+    <layout name="segregadores">
         <row>
-            <button type="tag" label="Estacionamento proibido na via"  icon="avaliacao_cicloviaria_icons/pavemente_type.png"/>
+            <button type="tag" label="Canteiros" />
+            <button type="tag" label="Prismas" />
+            <button type="tag" label="Guias" />
         </row>
         <row>
-            <button type="tag"
-                label="Estacionamento dedicado de um lado, segregado da circulação"  icon="avaliacao_cicloviaria_icons/pavemente_type.png"/>
+            <button type="tag" label="Gelo baiano" />
+            <button type="tag" label="Tachões" />
+            <button type="tag" label="Balizadores" />
         </row>
         <row>
-            <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação"  icon="avaliacao_cicloviaria_icons/pavemente_type.png"/>
-        </row>
-        <row>
-            <button type="tag" label="Estacionamento dedicado dos dois lados"  icon="avaliacao_cicloviaria_icons/pavemente_type.png"/>
+            <button type="tag" label="Pintura" />
+            <button type="tag" label="outros" />
         </row>
     </layout>
 
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Proteção contra invasão de automóveis"
-                targetlayout="protecao_contra_invasao_de_automovel" />
+            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" />
+            <button type="page" label="Sombreamento" targetlayout="sombreamento" />
+        </row>
+    </layout>
+
+    <!-- Página Sinuosidade -->
+    <layout name="sinuosidade">
+        <row>
+            <button type="tag" label="O traçado é sinuoso, exigindo atenção" />
         </row>
         <row>
-            <button type="page" label="Acessibilidade por conta do segregador"
-                targetlayout="segregadores" />
+            <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
         </row>
         <row>
-            <button type="page"
-                label="Situação do pavimento"
-                targetlayout="situacao_conservacao_pavimento" />
-            <button type="page"
-                label="Sinuosidade" targetlayout="sinuosidade" />
-            <button type="page"
-                label="Sombreamento" targetlayout="sombreamento" />
+            <button type="tag"
+                label="O traçado possui curvas com obstáculos que impedem visualização" />
         </row>
         <row>
-            <button type="page" label="Padrão de pintura vermelha" targetlayout="sinuosidade" />
-            <button type="page" label="Situação da pintura vermelha" targetlayout="sombreamento" />
+            <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
+        </row>
+    </layout>
+
+    <layouts>
+        <!-- Page Estacionamento na Via -->
+        <layout name="estacionamento_na_via">
+            <row>
+                <button type="tag" label="Estacionamento proibido na via" />
+            </row>
+            <row>
+                <button type="tag"
+                    label="Estacionamento dedicado de um lado, segregado da circulação" />
+            </row>
+            <row>
+                <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação" />
+            </row>
+            <row>
+                <button type="tag" label="Estacionamento dedicado dos dois lados" />
+            </row>
+        </layout>
+
+        <!-- Page Padrão de Pintura Vermelha -->
+        <layout name="padrao_de_pintura_vermelha">
+            <row>
+                <button type="tag" label="Toda área de circulação pintada de vermelho" />
+            </row>
+            <row>
+                <button type="tag" label="Pintada de vermelho com interrupções" />
+            </row>
+            <row>
+                <button type="tag"
+                    label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
+            </row>
+            <row>
+                <button type="tag" label="Apenas faixas vermelhas nas bordas" />
+            </row>
+        </layout>
+
+        <!-- Page Situação da Pintura Vermelha -->
+        <layout name="situacao_da_pintura_vermelha">
+            <row>
+                <button type="tag" label="A pintura está boa, COMPLETA e visível" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura está boa, mas FALHA em ALGUNS pontos" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura é falha em VÁRIOS pontos" />
+            </row>
+            <row>
+                <button type="tag" label="A pintura é MUITO falha, mostrando muito asfalto" />
+            </row>
+            <row>
+                <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" />
+            </row>
+        </layout>
+    </layouts>
+
+
+    <!-- Página Sombreamento -->
+    <layout name="sombreamento">
+        <row>
+            <button type="tag" label="Sombras em PRATICAMENTE TODA a extensão" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras na MAIOR PARTE da extensão" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras em alguns trechos, COM mudas plantadas" />
+        </row>
+        <row>
+            <button type="tag" label="Sombras em alguns trechos, SEM mudas novas" />
+        </row>
+        <row>
+            <button type="tag" label="Somente mudas novas" />
+        </row>
+        <row>
+            <button type="tag" label="Não há árvores nem mudas" />
         </row>
     </layout>
 
@@ -347,6 +336,18 @@
         </row>
     </layout>
 
+    <!-- Page Piso/Pavimento -->
+    <layout name="piso_pavimento">
+        <row>
+            <button type="tag" label="Concreto" />
+            <button type="tag" label="Asfalto" />
+            <button type="tag" label="Tijolo intertravado" />
+            <button type="tag" label="Paralelepípedo rejuntado com cimento" />
+            <button type="tag" label="Terra/Barro" />
+            <button type="tag" label="Outro" />
+        </row>
+    </layout>
+
     <!-- Page Situação de Conservação do Pavimento -->
     <layout name="situacao_conservacao_pavimento">
         <row>
@@ -356,81 +357,6 @@
             <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
             <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
             <button type="tag" label="Totalmente destruído, impossível transitar" />
-        </row>
-    </layout>
-
-    <!-- Página Sinuosidade -->
-    <layout name="sinuosidade">
-        <row>
-            <button type="tag" label="O traçado é sinuoso, exigindo atenção" />
-        </row>
-        <row>
-            <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
-        </row>
-        <row>
-            <button type="tag"
-                label="O traçado possui curvas com obstáculos que impedem visualização" />
-        </row>
-        <row>
-            <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
-        </row>
-    </layout>
-
-    <!-- Página Sombreamento -->
-    <layout name="sombreamento">
-        <row>
-            <button type="tag" label="Sombras em PRATICAMENTE TODA a extensão" />
-        </row>
-        <row>
-            <button type="tag" label="Sombras na MAIOR PARTE da extensão" />
-        </row>
-        <row>
-            <button type="tag" label="Sombras em alguns trechos, COM mudas plantadas" />
-        </row>
-        <row>
-            <button type="tag" label="Sombras em alguns trechos, SEM mudas novas" />
-        </row>
-        <row>
-            <button type="tag" label="Somente mudas novas" />
-        </row>
-        <row>
-            <button type="tag" label="Não há árvores nem mudas" />
-        </row>
-    </layout>
-
-    <!-- Page Padrão de Pintura Vermelha -->
-    <layout name="padrao_de_pintura_vermelha">
-        <row>
-            <button type="tag" label="Toda área de circulação pintada de vermelho" />
-        </row>
-        <row>
-            <button type="tag" label="Pintada de vermelho com interrupções" />
-        </row>
-        <row>
-            <button type="tag"
-                label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
-        </row>
-        <row>
-            <button type="tag" label="Apenas faixas vermelhas nas bordas" />
-        </row>
-    </layout>
-
-    <!-- Page Situação da Pintura Vermelha -->
-    <layout name="situacao_da_pintura_vermelha">
-        <row>
-            <button type="tag" label="A pintura está boa, COMPLETA e visível" />
-        </row>
-        <row>
-            <button type="tag" label="A pintura está boa, mas FALHA em ALGUNS pontos" />
-        </row>
-        <row>
-            <button type="tag" label="A pintura é falha em VÁRIOS pontos" />
-        </row>
-        <row>
-            <button type="tag" label="A pintura é MUITO falha, mostrando muito asfalto" />
-        </row>
-        <row>
-            <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" />
         </row>
     </layout>
 </layouts>
