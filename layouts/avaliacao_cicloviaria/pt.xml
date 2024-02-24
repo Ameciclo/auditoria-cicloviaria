@@ -20,7 +20,7 @@
         <row>
             <button type="voicerec" icon="logo_voice" />
             <button type="picture" icon="logo_camera" />
-            <button type="textnote" icon="logo_textnote" />
+            <button type="textnote" icon="logo_textnote" /> AZUL
         </row>
     </layout>
 
@@ -204,7 +204,7 @@
         </row>
         <row>
             <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
-            <button type="tag" label="outros" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
+            <button type="tag" label="🎨 outros" icon="avaliacao_cicloviaria_icons/segreator_type.png" />
         </row>
     </layout>
 
@@ -243,10 +243,10 @@
     <!-- Faixas de rolamento-->
     <layout name="faixas-via">
         <row>
-            <button type="tag" label="1" />
+            <button type="tag" label="1 faixa" />
         </row>
         <row>
-            <button type="tag" label="2" />
+            <button type="tag" label="2 faixas" />
         </row>
         <row>
             <button type="tag" label="3" />
