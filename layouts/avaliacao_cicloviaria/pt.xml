@@ -67,7 +67,7 @@
         <row>
             <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/ditch-removebg-preview.png" />
             <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/inclined_lane-removebg-preview.png" />
-            <button type="textnote" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
