@@ -31,7 +31,8 @@
                 icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
             <button type="tag" label="A-30"
                 icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar" />
+            <button type="tag" label="Complementar" 
+                icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
         </row>
         <row>
             <button type="tag" label="Início" />
