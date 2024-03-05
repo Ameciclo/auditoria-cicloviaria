@@ -52,6 +52,9 @@
             <button type="tag" label="60km/h" icon="avaliacao_cicloviaria_icons/speed_sign_60-removebg-preview.png" />
             <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
         </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+        </row>
     </layout>
 
     <!-- Obstáculos layout -->
