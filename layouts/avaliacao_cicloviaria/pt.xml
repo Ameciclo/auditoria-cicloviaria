@@ -89,6 +89,9 @@
             <button type="tag" label="Fim em contrafluxo" />
             <button type="tag" label="Outro" />
         </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+        </row>
     </layout>
 
     <!-- Caracterização layout -->
