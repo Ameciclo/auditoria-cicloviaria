@@ -40,12 +40,12 @@
             <button type="tag" label="Fim" 
                 icon="avaliacao_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
             <button type="tag" label="Semáforo exclusivo"
-                icon="avaliacao_cicloviaria_icons/cross_vertical_signbicicle_traffic_light-removebg-preview.png" />
+                icon="avaliacao_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="20km/h" icon="avaliacao_cicloviaria_icons/speed_sign_20-removebg-preview.png" />
-            <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30-removebg-preview.png" />
-            <button type="tag" label="40km/h" />
+            <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="40km/h" icon="avaliacao_cicloviaria_icons/speed_sign_40-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="50km/h" icon="avaliacao_cicloviaria_icons/speed_sign_50-removebg-preview.png" />
