@@ -87,7 +87,7 @@
         <row>
             <button type="tag" label="Invisibilidade à esquerda" />
             <button type="tag" label="Fim em contrafluxo" />
-            <button type="tag" label="Outro" />
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
     </layout>
 
