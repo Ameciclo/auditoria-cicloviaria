@@ -386,5 +386,8 @@
         </row>
             <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
     </layout>
 </layouts>
