@@ -97,10 +97,10 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button type="tag" label="Ciclovia" />
-            <button type="tag" label="Ciclofaixa" />
-            <button type="tag" label="Ciclorrota" />
-            <button type="tag" label="Calçada compartilhada" />
+            <button type="tag" label="Ciclovia" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Ciclofaixa" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Ciclorrota" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da ciclo" targetlayout="fluxo-ciclo" />
