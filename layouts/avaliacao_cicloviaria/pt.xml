@@ -70,24 +70,27 @@
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Paradas de ônibus" />
-            <button type="tag" label="Cruzamento perigoso" />
+            <button type="tag" label="Paradas de ônibus" icon="avaliacao_cicloviaria_icons/bus_stop-removebg-preview.png" />
+            <button type="tag" label="Cruzamento perigoso" icon="avaliacao_cicloviaria_icons/dangerous_intersection-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invasão na conversão" />
-            <button type="tag" label="Troca de lado" />
+            <button type="tag" label="Invasão na conversão" icon="avaliacao_cicloviaria_icons/intrusion_into_conversion-removebg-preview.png" />
+            <button type="tag" label="Troca de lado" icon="avaliacao_cicloviaria_icons/switch_side-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invisibilidade à esquerda" />
-            <button type="tag" label="Fim em contrafluxo" />
+            <button type="tag" label="Invisibilidade à esquerda" icon="avaliacao_cicloviaria_icons/invisibility_on_left-removebg-preview.png" />
+            <button type="tag" label="Fim em contrafluxo" icon="avaliacao_cicloviaria_icons/end_on_conterflow-removebg-preview.png" />
+        </row>
+        <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
