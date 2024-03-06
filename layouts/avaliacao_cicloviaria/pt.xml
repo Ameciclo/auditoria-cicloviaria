@@ -382,8 +382,8 @@
         </row>
         <row>
             <button type="tag" label="Ciclorrota" icon="avaliacao_cicloviaria_icons/ciclo_route-removebg-preview.png" />
-        <row>
         </row>
+        <row>
             <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
         <row>
