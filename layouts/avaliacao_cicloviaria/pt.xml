@@ -376,14 +376,10 @@
     <layout name="tipo_da_via">
         <row>
             <button type="tag" label="Ciclovia" icon="avaliacao_cicloviaria_icons/ciclo_lane-removebg-preview.png" />
-        </row>
-        <row>
             <button type="tag" label="Ciclofaixa" icon="avaliacao_cicloviaria_icons/ciclo_range-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Ciclorrota" icon="avaliacao_cicloviaria_icons/ciclo_route-removebg-preview.png" />
-        </row>
-        <row>
             <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
         <row>
