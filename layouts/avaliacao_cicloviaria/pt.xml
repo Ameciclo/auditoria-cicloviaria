@@ -151,7 +151,11 @@
     <layout name="fluxo-via">
         <row>
             <button type="tag" label="Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
+        </row>
+        <row>
             <button type="tag" label="Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
+        </row>
+        <row>
             <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row>
@@ -208,8 +212,10 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" />
-            <button type="page" label="Sombreamento" targetlayout="sombreamento" />
+            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-review.png" />
+        </row>
+        <row>
+            <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-review.png" />
         </row>
     </layout>
 
