@@ -181,10 +181,6 @@
             <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="9" icon="avaliacao_cicloviaria_icons/9_lanes-removebg-preview.png" />
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
-        </row>
-        <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
