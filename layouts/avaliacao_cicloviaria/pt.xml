@@ -165,31 +165,27 @@
     <!-- Faixas de rolamento-->
     <layout name="faixas-via">
         <row>
-            <button type="tag" label="1 faixa" />
+            <button type="tag" label="1" icon="avaliacao_cicloviaria_icons/1_lane-removebg-preview.png" />
+            <button type="tag" label="2" icon="avaliacao_cicloviaria_icons/2_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="2 faixas" />
+            <button type="tag" label="3" icon="avaliacao_cicloviaria_icons/3_lanes-removebg-preview.png" />
+            <button type="tag" label="4" icon="avaliacao_cicloviaria_icons/4_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="3" />
+            <button type="tag" label="5" icon="avaliacao_cicloviaria_icons/5_lanes-removebg-preview.png" />
+            <button type="tag" label="6" icon="avaliacao_cicloviaria_icons/6_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="4" />
+            <button type="tag" label="7" icon="avaliacao_cicloviaria_icons/7_lanes-removebg-preview.png" />
+            <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="5" />
+            <button type="tag" label="9" icon="avaliacao_cicloviaria_icons/9_lanes-removebg-preview.png" />
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="6" />
-        </row>
-        <row>
-            <button type="tag" label="7" />
-        </row>
-        <row>
-            <button type="tag" label="8" />
-        </row>
-        <row>
-            <button type="tag" label="9" />
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
@@ -209,7 +205,7 @@
         </row>
         <row>
             <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/paint_divider-removebg-preview.png" />
-            <button type="tag" label="outros" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
