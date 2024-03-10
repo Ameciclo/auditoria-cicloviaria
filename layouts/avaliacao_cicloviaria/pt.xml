@@ -212,10 +212,14 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
+        </row>
+        <row>
             <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-preview.png" />
+        </row>
+        <row>
         </row>
     </layout>
 
