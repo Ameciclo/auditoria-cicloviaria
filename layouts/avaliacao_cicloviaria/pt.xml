@@ -154,7 +154,7 @@
     <layout name="fluxo-via">
         <row>
             <button type="tag" label="Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
-            <button type="tag" label="Mão dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
+            <button type="tag" label="Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
             <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row>
@@ -196,18 +196,23 @@
     <!-- Segregadores layout -->
     <layout name="segregadores">
         <row>
-            <button type="tag" label="Canteiros" />
-            <button type="tag" label="Prismas" />
-            <button type="tag" label="Guias" />
+            <button type="tag" label="Canteiros" icon="avaliacao_cicloviaria_icons/flowerbed-removebg-preview.png" />
+            <button type="tag" label="Prismas" icon="avaliacao_cicloviaria_icons/prism_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Gelo baiano" />
-            <button type="tag" label="Tachões" />
-            <button type="tag" label="Balizadores" />
+            <button type="tag" label="Guias" icon="avaliacao_cicloviaria_icons/guide_divider-removebg-preview.png" />
+            <button type="tag" label="Gelo baiano" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Pintura" />
-            <button type="tag" label="outros" />
+            <button type="tag" label="Tachões" icon="avaliacao_cicloviaria_icons/yellow_brick_small_divider-removebg-preview.png" />
+            <button type="tag" label="Balizadores" icon="avaliacao_cicloviaria_icons/beacon_divider-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/paint_divider-removebg-preview.png" />
+            <button type="tag" label="outros" icon="avaliacao_cicloviaria_icons/other.png" />
+        </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
