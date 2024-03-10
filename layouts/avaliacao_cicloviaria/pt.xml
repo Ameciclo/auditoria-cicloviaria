@@ -115,23 +115,20 @@
     <!-- Localização da estrutura-->
     <layout name="localizacao-via">
         <row>
-            <button type="tag" label="No canteiro central" />
+            <button type="tag" label="No canteiro central" icon="avaliacao_cicloviaria_icons/center_flowerbed_ciclo-removebg-preview.png" />
+            <button type="tag" label="Na via, junto ao canteiro" icon="avaliacao_cicloviaria_icons/border_flowerbed_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Na via, junto ao canteiro" />
+            <button type="tag" label="No bordo direito de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_right-removebg-preview.png" />
+            <button type="tag" label="No bordo esquerdo de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_left-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo direito de Mão Única" />
+            <button type="tag" label="Em bordo de Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_border-removebg-preview.png" />
+            <button type="tag" label="Sobre calçada" icon="avaliacao_cicloviaria_icons/pedestrian_with_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo esquerdo de Mão Única" />
-        </row>
-        <row>
-            <button type="tag" label="Em bordo de Mão Dupla" />
-        </row>
-        <row>
-            <button type="tag" label="Sobre calçada" />
-            <button type="tag" label="Isolada" />
+            <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
