@@ -139,11 +139,11 @@
     <layout name="fluxo-ciclo">
         <row>
             <button type="tag" label="Unidirecional no Fluxo" icon="avaliacao_cicloviaria_icons/unidirect_flow-removebg-preview.png" />
-            <button type="tag" label="Unidirecional no contrafluxo" icon="avaliacao_cicloviaria_icons/unidirect_unflow-removebg-preview.png" />
+            <button type="tag" label="Unidirecional no Contrafluxo" icon="avaliacao_cicloviaria_icons/unidirect_unflow-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Bidirecional" icon="avaliacao_cicloviaria_icons/bidirect-removebg-preview.png" />
-            <button type="tag" label="Bidirecional com Mão Inglesa na estrutura" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
+            <button type="tag" label="Bidirecional com Mão Inglesa na Estrutura" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
@@ -153,13 +153,12 @@
     <!-- Fluxo da via-->
     <layout name="fluxo-via">
         <row>
-            <button type="tag" label="Mão única" />
+            <button type="tag" label="Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
+            <button type="tag" label="Mão dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
+            <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Mão dupla" />
-        </row>
-        <row>
-            <button type="tag" label="Mão inglesa" />
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
