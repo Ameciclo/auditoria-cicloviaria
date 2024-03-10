@@ -100,12 +100,12 @@
             <button targetlayout="tipo_da_via" type="page" label="Tipo da via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
         </row>
         <row>
-            <button type="page" label="Fluxo da ciclo" targetlayout="fluxo-ciclo" />
-            <button type="page" label="Localização na Via" targetlayout="localizacao-via" />
+            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
+            <button type="page" label="Localização na Via" targetlayout="localizacao-via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" />
-            <button type="page" label="Qtd faixas" targetlayout="faixas-via" />
+            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
+            <button type="page" label="Quantidade de Faixas" targetlayout="faixas-via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
