@@ -2,20 +2,14 @@
     <!-- Main layout -->
     <layout name="root">
         <row>
-            <button type="page" label="Placas" targetlayout="placas"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="page" label="Obstáculos" targetlayout="obstaculos"
-                icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="page" label="Riscos" targetlayout="riscos"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="page" label="Placas" targetlayout="placas" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="page" label="Obstáculos" targetlayout="obstaculos" icon="avaliacao_cicloviaria_icons/obstacle.png" />
+            <button type="page" label="Riscos" targetlayout="riscos" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
         </row>
         <row>
-            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Segregadores" targetlayout="segregadores"
-                icon="avaliacao_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Avaliações" targetlayout="avaliacoes"
-                icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
+            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -27,20 +21,14 @@
     <!-- Placas layout -->
     <layout name="placas">
         <row>
-            <button type="tag" label="R-34"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="A-30"
-                icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar" 
-                icon="avaliacao_cicloviaria_icons/complementary_plate-removebg-preview.png" />
+            <button type="tag" label="R-34" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="tag" label="A-30" icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
+            <button type="tag" label="Complementar" icon="avaliacao_cicloviaria_icons/complementary_plate-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Início"
-                icon="avaliacao_cicloviaria_icons/bike_lane_start-removebg-preview.png" />
-            <button type="tag" label="Fim" 
-                icon="avaliacao_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
-            <button type="tag" label="Semáforo exclusivo"
-                icon="avaliacao_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
+            <button type="tag" label="Início" icon="avaliacao_cicloviaria_icons/bike_lane_start-removebg-preview.png" />
+            <button type="tag" label="Fim" icon="avaliacao_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
+            <button type="tag" label="Semáforo exclusivo" icon="avaliacao_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="20km/h" icon="avaliacao_cicloviaria_icons/speed_sign_20-removebg-preview.png" />
@@ -215,6 +203,7 @@
             <button type="page" label="Proteção" targetlayout="protecao" icon="" />
         </row>
         <row>
+            <button type="page" label="Acessibilidade" targetlayout="acessibilidade" icon="" />
         </row>
         <row>
             <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
@@ -237,8 +226,7 @@
             <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
         </row>
         <row>
-            <button type="tag"
-                label="O traçado possui curvas com obstáculos que impedem visualização" />
+            <button type="tag" label="O traçado possui curvas com obstáculos que impedem visualização" />
         </row>
         <row>
             <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
@@ -252,8 +240,7 @@
                 <button type="tag" label="Estacionamento proibido na via" />
             </row>
             <row>
-                <button type="tag"
-                    label="Estacionamento dedicado de um lado, segregado da circulação" />
+                <button type="tag" label="Estacionamento dedicado de um lado, segregado da circulação" />
             </row>
             <row>
                 <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação" />
@@ -272,8 +259,7 @@
                 <button type="tag" label="Pintada de vermelho com interrupções" />
             </row>
             <row>
-                <button type="tag"
-                    label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
+                <button type="tag" label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
             </row>
             <row>
                 <button type="tag" label="Apenas faixas vermelhas nas bordas" />
@@ -329,8 +315,7 @@
             <button type="tag" label="Segregação impede completamente a invasão de automóvel" />
         </row>
         <row>
-            <button type="tag"
-                label="Impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+            <button type="tag" label="Impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
         </row>
         <row>
             <button type="tag" label="Poucos trechos SEM segregadores dificultando invasão" />
@@ -408,6 +393,42 @@
         </row>
         <row>
             <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
+        </row>
+    </layout>
+
+    <!-- Página Acessibilidade -->
+    <layout name="acessibilidade">
+        <row>
+            <button type="page" label="Segregadores" targetlayout="acessibilidade_segregadores" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Ciclovias" targetlayout="acessibilidade_ciclovias" icon="" />
+        </row>
+    </layout>
+
+    <!-- Layout Acessibilidade Segregadores -->
+    <layout name="acessibilidade_segregadores">
+        <row>
+            <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
+        </row>
+        <row>
+            <button type="tag" label="Segregadores DIFICULTAM o acesso parcialmente" />
+        </row>
+        <row>
+            <button type="tag" label="Segregadores IMPEDEM o acesso" />
+        </row>
+    </layout>
+
+    <!-- Layout Acessibilidade Ciclovias -->
+    <layout name="acessibilidade_ciclovias">
+        <row>
+            <button type="tag" label="Transversal COM acesso" />
+        </row>
+        <row>
+            <button type="tag" label="Transversal SEM acesso" />
+        </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
         </row>
     </layout>
 </layouts>
