@@ -90,11 +90,12 @@
         <row>
             <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
             <button type="page" label="Localização na Via" targetlayout="localizacao-via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
-            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="" />
         </row>
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
             <button type="page" label="Quantidade de Faixas" targetlayout="faixas-via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="largura_caracterizacao" icon="" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
@@ -338,7 +339,7 @@
         </row>
         <row>
             <button type="tag" label="Tijolo intertravado" />
-            <button type="tag" label="Paralelepípedo rejuntado com cimento" />
+            <button type="tag" label="Paralelepípedo" />
         </row>
         <row>
             <button type="tag" label="Terra/Barro" />
@@ -438,6 +439,26 @@
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+        </row>
+    </layout>
+
+    <!-- Page Largura Caracterização -->
+    <layout name="largura_caracterizacao">
+        <row>
+            <button type="tag" label="Área transitável da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Faixa de amortecimento da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Faixa de rolamento contígua à estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Total incluindo a estrutura" />
+        </row>
+        <row>
+            <button type="textnote" icon="logo_textnote" />
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 </layouts>
