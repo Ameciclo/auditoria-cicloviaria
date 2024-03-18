@@ -417,6 +417,9 @@
         <row>
             <button type="tag" label="Segregadores IMPEDEM o acesso" />
         </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+        </row>
     </layout>
 
     <!-- Layout Acessibilidade Ciclovias -->
