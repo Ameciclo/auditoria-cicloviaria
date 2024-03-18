@@ -212,6 +212,7 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
+            <button type="page" label="Proteção" targetlayout="protecao" icon="" />
         </row>
         <row>
         </row>
@@ -379,6 +380,7 @@
         </row>
     </layout>
 
+    <!-- Página Tipo da Via -->
     <layout name="tipo_da_via">
         <row>
             <button type="tag" label="Ciclovia" icon="avaliacao_cicloviaria_icons/ciclo_lane-removebg-preview.png" />
@@ -390,6 +392,22 @@
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Página Proteção -->
+    <layout name="protecao">
+        <row>
+            <button type="tag" label="SE CICLOVIA, segregação impede completamente a invasão de automóvel e não há trechos desprotegidos" />
+        </row>
+        <row>
+            <button type="tag" label="SE CICLOFAIXA, impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+        </row>
+        <row>
+            <button type="tag" label="Poucos trechos COM segregadores dificultando invasão" />
+        </row>
+        <row>
+            <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
         </row>
     </layout>
 </layouts>
