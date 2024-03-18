@@ -90,7 +90,7 @@
         <row>
             <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
             <button type="page" label="Localização na Via" targetlayout="localizacao-via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
-            <button type="page" label="Pavimento" targetlayout="paviemnto" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
@@ -213,6 +213,7 @@
             <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
+            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="" />
         </row>
         <row>
         </row>
@@ -329,39 +330,43 @@
         </row>
     </layout>
 
-    <!-- Page Segregadores -->
-    <layout name="segregadores_acesso">
-        <row>
-            <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
-        </row>
-        <row>
-            <button type="tag" label="Segregadores DIFICULTAM o acesso parcialmente" />
-        </row>
-        <row>
-            <button type="tag" label="Segregadores IMPEDEM o acesso" />
-        </row>
-    </layout>
-
-    <!-- Page Piso/Pavimento -->
-    <layout name="piso_pavimento">
+    <!-- Page Piso/Pavimento Caracterização -->
+    <layout name="pavimento_caracterizacao">
         <row>
             <button type="tag" label="Concreto" />
             <button type="tag" label="Asfalto" />
+        </row>
+        <row>
             <button type="tag" label="Tijolo intertravado" />
             <button type="tag" label="Paralelepípedo rejuntado com cimento" />
+        </row>
+        <row>
             <button type="tag" label="Terra/Barro" />
             <button type="tag" label="Outro" />
+        </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
 
     <!-- Page Situação de Conservação do Pavimento -->
-    <layout name="situacao_conservacao_pavimento">
+    <layout name="pavimento_avaliacao">
         <row>
             <button type="tag" label="Bom estado" />
+        </row>
+        <row>
             <button type="tag" label="Pequenas imperfeições, como fissuras" />
+        </row>
+        <row>
             <button type="tag" label="Irregularidades que demandam desvio para circulação" />
+        </row>
+        <row>
             <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
+        </row>
+        <row>
             <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
+        </row>
+        <row>
             <button type="tag" label="Totalmente destruído, impossível transitar" />
         </row>
     </layout>
