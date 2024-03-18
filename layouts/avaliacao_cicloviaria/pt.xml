@@ -90,6 +90,7 @@
         <row>
             <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
             <button type="page" label="Localização na Via" targetlayout="localizacao-via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="paviemnto" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
