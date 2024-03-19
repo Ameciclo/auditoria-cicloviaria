@@ -45,7 +45,7 @@
             <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+            <button type="tag" label="Remover" icon=""/>
         </row>
     </layout>
 
@@ -62,7 +62,7 @@
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -82,7 +82,7 @@
         </row>
         <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -105,7 +105,7 @@
             <button type="page" label="Quantidade de Faixas" targetlayout="faixas-via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -125,7 +125,7 @@
         </row>
         <row>
             <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -140,7 +140,7 @@
             <button type="tag" label="Bidirecional com Mão Inglesa na Estrutura" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -156,7 +156,7 @@
             <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -179,7 +179,7 @@
             <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -202,7 +202,7 @@
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -354,7 +354,7 @@
             <button type="tag" label="Outro" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -391,7 +391,7 @@
             <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -433,7 +433,7 @@
             <button type="tag" label="Segregadores IMPEDEM o acesso" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+            <button type="tag" label="Remover" icon=""/>
         </row>
     </layout>
 
@@ -446,7 +446,7 @@
             <button type="tag" label="Transversal SEM acesso" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png"/>
+            <button type="tag" label="Remover" icon=""/>
         </row>
     </layout>
 
@@ -471,7 +471,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -503,7 +503,7 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -532,7 +532,7 @@
             <button type="tag" label="Apenas faixas vermelhas nas bordas" icon="" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -554,7 +554,7 @@
             <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" icon="" />
         </row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -583,7 +583,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -599,7 +599,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover 🗑️" icon="" />
         </row>
     </layout>
 
@@ -615,7 +615,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 
@@ -633,7 +633,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+            <button type="tag" label="Remover" icon="" />
         </row>
     </layout>
 </layouts>
