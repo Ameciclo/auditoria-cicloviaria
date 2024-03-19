@@ -513,7 +513,7 @@
             <button type="page" label="Padrão de pintura vermelha" targetlayout="pintura_vermelha_padrao" icon="" />
         </row>
         <row>
-            <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situação" icon="" />
+            <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situacao" icon="" />
         </row>
     </layout>
 
@@ -537,7 +537,7 @@
     </layout>
 
     <!-- Page Sinalização Horizontal - Avaliação - Situação Pintura Vermelha -->
-    <layout name="pintura_vermelha_padrao">
+    <layout name="pintura_vermelha_situacao">
         <row>
             <button type="tag" label="A pintura está boa, COMPLETA e visível" icon="" />
         </row>
