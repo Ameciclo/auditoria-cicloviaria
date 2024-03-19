@@ -14,6 +14,7 @@
         <row>
             <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
             <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="" />
+            <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -604,6 +605,24 @@
             <button type="tag" label="Registrar seta em MAU condição" />
         </row>
         <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Page Iluminação da Estrutura - Quantitativo -->
+    <layout name="iluminacao_estrutura_qte">
+        <row>
+            <button type="tag" label="Registrar iluminação para ciclistas" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar iluminação geral na via do mesmo lado da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar iluminação geral na via do outro lado da infraestrutura" />
+        </row>
         <row></row>
         <row></row>
         <row>
