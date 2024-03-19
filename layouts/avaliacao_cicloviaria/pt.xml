@@ -46,7 +46,7 @@
             <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon=""/>
+            <button type="tag" label="Remover Placa 🗑️" icon=""/>
         </row>
     </layout>
 
@@ -63,7 +63,7 @@
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Obstáculo 🗑️" icon="" />
         </row>
     </layout>
 
@@ -83,7 +83,7 @@
         </row>
         <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Risco 🗑️" icon="" />
         </row>
     </layout>
 
@@ -106,7 +106,7 @@
             <button type="page" label="Quantidade de Faixas" targetlayout="faixas-via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Caracterização 🗑️" icon="" />
         </row>
     </layout>
 
@@ -126,7 +126,7 @@
         </row>
         <row>
             <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Localização 🗑️" icon="" />
         </row>
     </layout>
 
@@ -141,7 +141,7 @@
             <button type="tag" label="Bidirecional com Mão Inglesa na Estrutura" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Fluxo da Ciclovia 🗑️" icon="" />
         </row>
     </layout>
 
@@ -157,7 +157,7 @@
             <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Fluxo da Via🗑️" icon="" />
         </row>
     </layout>
 
@@ -180,7 +180,7 @@
             <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Faixas da Via 🗑️" icon="" />
         </row>
     </layout>
 
@@ -203,7 +203,7 @@
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Segregador 🗑️" icon="" />
         </row>
     </layout>
 
@@ -355,7 +355,7 @@
             <button type="tag" label="Outro" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Pavimento 🗑️" icon="" />
         </row>
     </layout>
 
@@ -392,7 +392,7 @@
             <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Tipo da Via 🗑️" icon="" />
         </row>
     </layout>
 
@@ -424,7 +424,7 @@
             <button type="tag" label="Segregadores IMPEDEM o acesso" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon=""/>
+            <button type="tag" label="Remover Avaliação Segregadores 🗑️" icon=""/>
         </row>
     </layout>
 
@@ -441,7 +441,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon=""/>
+            <button type="tag" label="Remover Acesso Ciclovias 🗑️" icon=""/>
         </row>
     </layout>
 
@@ -466,7 +466,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Largura 🗑️" icon="" />
         </row>
     </layout>
 
@@ -498,7 +498,7 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Controle de Velocidade 🗑️" icon="" />
         </row>
     </layout>
 
@@ -527,7 +527,7 @@
             <button type="tag" label="Apenas faixas vermelhas nas bordas" icon="" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Padrão de Pintura 🗑️" icon="" />
         </row>
     </layout>
 
@@ -549,7 +549,7 @@
             <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" icon="" />
         </row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Situação Pintura 🗑️" icon="" />
         </row>
     </layout>
 
@@ -578,7 +578,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Registro de Pintura 🗑️" icon="" />
         </row>
     </layout>
 
@@ -594,7 +594,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Registro de Pictograma 🗑️" icon="" />
         </row>
     </layout>
 
@@ -610,7 +610,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Registro de Setas 🗑️" icon="" />
         </row>
     </layout>
 
@@ -628,7 +628,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover 🗑️" icon="" />
+            <button type="tag" label="Remover Tipo de Iluminação 🗑️" icon="" />
         </row>
     </layout>
 </layouts>
