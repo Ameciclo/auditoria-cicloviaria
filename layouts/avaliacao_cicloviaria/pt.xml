@@ -462,19 +462,19 @@
     <!-- Page Largura Caracterização -->
     <layout name="larguras_estrutura_qte">
         <row>
-            <button type="tag" label="Área transitável da estrutura" />
+            <button type="tag" label="Área transitável da estrutura (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Faixa de amortecimento da estrutura" />
+            <button type="tag" label="Faixa de amortecimento da estrutura (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Faixa de rolamento contígua à estrutura" />
+            <button type="tag" label="Faixa de rolamento contígua à estrutura (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Total incluindo a estrutura" />
+            <button type="tag" label="Total incluindo a estrutura (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
