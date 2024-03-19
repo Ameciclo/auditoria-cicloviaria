@@ -9,6 +9,7 @@
         <row>
             <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
             <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="" />
         </row>
         <row>
             <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
@@ -212,7 +213,7 @@
             <button type="page" label="Proteção" targetlayout="protecao" icon="" />
         </row>
         <row>
-            <button type="page" label="Acessibilidade" targetlayout="acessibilidade" icon="" />
+            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="" />
         </row>
         <row>
             <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
@@ -411,18 +412,8 @@
         </row>
     </layout>
 
-    <!-- Página Acessibilidade -->
-    <layout name="acessibilidade">
-        <row>
-            <button type="page" label="Segregadores" targetlayout="acessibilidade_segregadores" icon="" />
-        </row>
-        <row>
-            <button type="page" label="Ciclovias" targetlayout="acessibilidade_ciclovias" icon="" />
-        </row>
-    </layout>
-
-    <!-- Layout Acessibilidade Segregadores -->
-    <layout name="acessibilidade_segregadores">
+    <!-- Página Segregadores Avaliação -->
+    <layout name="segregadores_avaliacao">
         <row>
             <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
         </row>
@@ -437,14 +428,18 @@
         </row>
     </layout>
 
-    <!-- Layout Acessibilidade Ciclovias -->
-    <layout name="acessibilidade_ciclovias">
+    <!-- Layout Acesso Ciclovias -->
+    <layout name="acesso_ciclovias">
         <row>
             <button type="tag" label="Transversal COM acesso" />
         </row>
         <row>
             <button type="tag" label="Transversal SEM acesso" />
         </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row></row>
         <row>
             <button type="tag" label="Remover" icon=""/>
         </row>
