@@ -431,10 +431,10 @@
     <!-- Layout Acesso Ciclovias -->
     <layout name="acesso_ciclovias">
         <row>
-            <button type="tag" label="Transversal COM acesso" />
+            <button type="tag" label="Via transversal COM acesso à ciclovia" />
         </row>
         <row>
-            <button type="tag" label="Transversal SEM acesso" />
+            <button type="tag" label="Via transversal SEM acesso à ciclovia" />
         </row>
         <row></row>
         <row></row>
