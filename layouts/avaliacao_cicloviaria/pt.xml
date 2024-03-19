@@ -61,7 +61,7 @@
             <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/ditch-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Desnível" icon="" />
+            <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/desalign_bike_lane-removebg-preview.png" />
             <button />
         </row>
         <row>
@@ -103,7 +103,7 @@
     <layout name="caracterizacao-ciclo">
         <row>
             <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
-            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="" />
+            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="avaliacao_cicloviaria_icons/metrics-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
@@ -111,7 +111,7 @@
         </row>
         <row>
             <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="brick_floor-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
@@ -231,10 +231,10 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Proteção" targetlayout="protecao" icon="" />
+            <button type="page" label="Proteção" targetlayout="protecao" icon="avaliacao_cicloviaria_icons/security-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="" />
+            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
@@ -243,10 +243,10 @@
             <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="" />
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
         </row>
     </layout>
 
@@ -375,15 +375,15 @@
     <!-- Page Piso/Pavimento Caracterização -->
     <layout name="pavimento_caracterizacao">
         <row>
-            <button type="tag" label="Concreto" />
-            <button type="tag" label="Asfalto" />
+            <button type="tag" label="Concreto" icon="avaliacao_cicloviaria_icons/concret_floor-removebg-preview.png" />
+            <button type="tag" label="Asfalto" icon="avaliacao_cicloviaria_icons/asphalt_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Tijolo intertravado" />
-            <button type="tag" label="Paralelepípedo" />
+            <button type="tag" label="Tijolo intertravado" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
+            <button type="tag" label="Paralelepípedo" icon="avaliacao_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Terra/Barro" />
+            <button type="tag" label="Terra/Barro" icon="avaliacao_cicloviaria_icons/dirt_floor-removebg-preview.png" />
             <button />
         </row>
         <row>
@@ -557,12 +557,16 @@
 
     <!-- Page Sinalização Horizontal - Avaliação -->
     <layout name="sinalizacao_horizontal_avaliacao">
+        <row></row>
+        <row></row>
+        <row></row>
         <row>
             <button type="page" label="Padrão de pintura vermelha" targetlayout="pintura_vermelha_padrao" icon="" />
-        </row>
-        <row>
             <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situacao" icon="" />
         </row>
+        <row></row>
+        <row></row>
+        <row></row>
     </layout>
 
     <!-- Page Sinalização Horizontal - Avaliação - Padrão Pintura Vermelha -->
@@ -614,13 +618,13 @@
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
         <row>
-            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="" />
+            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="avaliacao_cicloviaria_icons/cross_signaling-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="" />
+            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="avaliacao_cicloviaria_icons/floor_signaling-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="" />
+            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
         </row>
     </layout>
 
