@@ -15,6 +15,7 @@
             <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
             <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="" />
             <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="" />
+            <button type="page" label="Larguras" targetlayout="larguras_estrutura_qte" icon="" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -100,7 +101,6 @@
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
             <button type="page" label="Quantidade de Faixas" targetlayout="faixas-via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
-            <button type="page" label="Pavimento" targetlayout="largura_caracterizacao" icon="" />
         </row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
@@ -449,21 +449,24 @@
     </layout>
 
     <!-- Page Largura Caracterização -->
-    <layout name="largura_caracterizacao">
+    <layout name="larguras_estrutura_qte">
         <row>
             <button type="tag" label="Área transitável da estrutura" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Faixa de amortecimento da estrutura" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Faixa de rolamento contígua à estrutura" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Total incluindo a estrutura" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="textnote" icon="logo_textnote" />
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
     </layout>
