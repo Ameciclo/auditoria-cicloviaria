@@ -220,6 +220,7 @@
             <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="" />
         </row>
         <row>
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="" />
         </row>
     </layout>
 
@@ -497,4 +498,54 @@
         </row>
     </layout>
 
+    <!-- Page Sinalização Horizontal - Avaliação -->
+    <layout name="sinalizacao_horizontal_avaliacao">
+        <row>
+            <button type="page" label="Padrão de pintura vermelha" targetlayout="pintura_vermelha_padrao" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situação" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Avaliação - Padrão Pintura Vermelha -->
+    <layout name="pintura_vermelha_padrao">
+        <row>
+            <button type="tag" label="Toda área de circulação pintada de vermelho" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Pintada de vermelho com interrupções" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Apenas faixas vermelhas nas bordas" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Avaliação - Situação Pintura Vermelha -->
+    <layout name="pintura_vermelha_padrao">
+        <row>
+            <button type="tag" label="A pintura está boa, COMPLETA e visível" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura está boa, mas FALHA em ALGUNS pontos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura é falha em VÁRIOS pontos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura é MUITO falha, mostrando muito asfalto" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
 </layouts>
