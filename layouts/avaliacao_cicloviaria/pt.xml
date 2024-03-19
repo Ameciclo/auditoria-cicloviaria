@@ -466,6 +466,8 @@
             <button type="tag" label="Total incluindo a estrutura" />
             <button type="textnote" icon="logo_textnote" />
         </row>
+        <row></row>
+        <row></row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
