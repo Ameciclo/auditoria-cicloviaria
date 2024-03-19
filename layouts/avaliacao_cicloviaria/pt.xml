@@ -2,14 +2,14 @@
     <!-- Main layout -->
     <layout name="root">
         <row>
+            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
             <button type="page" label="Placas" targetlayout="placas" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
             <button type="page" label="Obstáculos" targetlayout="obstaculos" icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="page" label="Riscos" targetlayout="riscos" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
         </row>
         <row>
-            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Riscos" targetlayout="riscos" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
             <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="" />
+            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
             <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
