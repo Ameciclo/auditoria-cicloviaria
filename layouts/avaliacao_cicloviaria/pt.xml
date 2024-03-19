@@ -60,7 +60,10 @@
         <row>
             <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/ditch-removebg-preview.png" />
             <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/inclined_lane-removebg-preview.png" />
+        </row>
+        <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Remover Obstáculo 🗑️" icon="" />
@@ -83,6 +86,9 @@
         </row>
         <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
             <button type="tag" label="Remover Risco 🗑️" icon="" />
         </row>
     </layout>
@@ -200,7 +206,11 @@
         </row>
         <row>
             <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/paint_divider-removebg-preview.png" />
+            <button />
+        </row>
+        <row>
             <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Remover Segregador 🗑️" icon="" />
@@ -352,7 +362,11 @@
         </row>
         <row>
             <button type="tag" label="Terra/Barro" />
-            <button type="tag" label="Outro" />
+            <button />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Remover Pavimento 🗑️" icon="" />
