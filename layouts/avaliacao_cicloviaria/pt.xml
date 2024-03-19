@@ -8,14 +8,12 @@
         </row>
         <row>
             <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
             <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
             <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
             <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="" />
             <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="" />
-            <button type="page" label="Larguras" targetlayout="larguras_estrutura_qte" icon="" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -91,11 +89,15 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo da via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
+            <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
+            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="" />
         </row>
         <row>
             <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
             <button type="page" label="Localização na Via" targetlayout="localizacao-via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
             <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="" />
         </row>
         <row>
