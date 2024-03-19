@@ -12,7 +12,8 @@
             <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
-            <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade" icon="" />
+            <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="" />
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -467,7 +468,7 @@
     </layout>
 
     <!-- Page Controle de Velocidade -->
-    <layout name="controle_de_velocidade">
+    <layout name="controle_de_velocidade_qte">
         <row>
             <button type="tag" label="Sinalização VERTICAL" icon="" />
         </row>
@@ -544,6 +545,67 @@
         <row>
             <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" icon="" />
         </row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo -->
+    <layout name="sinalizacao_horizontal_qte">
+        <row>
+            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Pintura ao longo de cruzamentos e travessias -->
+    <layout name="pintura_cruzamentos">
+        <row>
+            <button type="tag" label="Registrar pintura em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar pintura em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Pictogramas ao longo do trecho -->
+    <layout name="pictograma_trecho">
+        <row>
+            <button type="tag" label="Registrar pictograma em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar pictograma em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Setas ao longo da estrutura -->
+    <layout name="setas_extrutura">
+        <row>
+            <button type="tag" label="Registrar seta em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar seta em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
         <row>
             <button type="tag" label="Remover" icon="avaliacao_cicloviaria_icons/remove.png" />
         </row>
