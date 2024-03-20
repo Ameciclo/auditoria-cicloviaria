@@ -2,20 +2,19 @@
     <!-- Main layout -->
     <layout name="root">
         <row>
-            <button type="page" label="Placas" targetlayout="placas"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="page" label="Obstáculos" targetlayout="obstaculos"
-                icon="avaliacao_cicloviaria_icons/obstacle.png" />
-            <button type="page" label="Riscos" targetlayout="riscos"
-                icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Placas" targetlayout="placas" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="page" label="Obstáculos" targetlayout="obstaculos" icon="avaliacao_cicloviaria_icons/obstacle.png" />
         </row>
         <row>
-            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
-                icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Segregadores" targetlayout="segregadores"
-                icon="avaliacao_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Avaliações" targetlayout="avaliacoes"
-                icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Riscos" targetlayout="riscos" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
+            <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="avaliacao_cicloviaria_icons/bike_lane_access-removebg-preview.png" />
+            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+        </row>
+        <row>
+            <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="avaliacao_cicloviaria_icons/electronic_spine-removebg-preview.png" />
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+            <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="avaliacao_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -27,184 +26,227 @@
     <!-- Placas layout -->
     <layout name="placas">
         <row>
-            <button type="tag" label="R-34"
-                icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="A-30"
-                icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar" />
+            <button type="tag" label="R-34" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="tag" label="A-30" icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
+            <button type="tag" label="Complementar" icon="avaliacao_cicloviaria_icons/complementary_plate-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Início" />
-            <button type="tag" label="Fim" />
-            <button type="tag" label="Semáforo exclusivo" />
+            <button type="tag" label="Início" icon="avaliacao_cicloviaria_icons/bike_lane_start-removebg-preview.png" />
+            <button type="tag" label="Fim" icon="avaliacao_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
+            <button type="tag" label="Semáforo exclusivo" icon="avaliacao_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="20km/h" />
+            <button type="tag" label="20km/h" icon="avaliacao_cicloviaria_icons/speed_sign_20-removebg-preview.png" />
             <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
-            <button type="tag" label="40km/h" />
+            <button type="tag" label="40km/h" icon="avaliacao_cicloviaria_icons/speed_sign_40-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="50km/h" />
-            <button type="tag" label="60km/h" />
-            <button type="tag" label="80km/h" />
+            <button type="tag" label="50km/h" icon="avaliacao_cicloviaria_icons/speed_sign_50-removebg-preview.png" />
+            <button type="tag" label="60km/h" icon="avaliacao_cicloviaria_icons/speed_sign_60-removebg-preview.png" />
+            <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Placa 🗑️" icon=""/>
         </row>
     </layout>
 
     <!-- Obstáculos layout -->
     <layout name="obstaculos">
         <row>
-            <button type="tag" label="Bueiro" />
-            <button type="tag" label="Raíz" />
-            <button type="tag" label="Buraco" />
+            <button type="tag" label="Bueiro" icon="avaliacao_cicloviaria_icons/manhole-removebg-preview.png" />
+            <button type="tag" label="Raíz" icon="avaliacao_cicloviaria_icons/tree_root-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Vala profunda" />
-            <button type="tag" label="Desnível" />
-            <button type="tag" label="Outro" />
+            <button type="tag" label="Buraco" icon="avaliacao_cicloviaria_icons/hole-removebg-preview.png" />
+            <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/ditch-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/desalign_bike_lane-removebg-preview.png" />
+            <button />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Obstáculo 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Paradas de ônibus" />
-            <button type="tag" label="Cruzamento perigoso" />
+            <button type="tag" label="Paradas de ônibus" icon="avaliacao_cicloviaria_icons/bus_stop-removebg-preview.png" />
+            <button type="tag" label="Cruzamento perigoso" icon="avaliacao_cicloviaria_icons/dangerous_intersection-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invasão na conversão" />
-            <button type="tag" label="Troca de lado" />
+            <button type="tag" label="Invasão na conversão" icon="avaliacao_cicloviaria_icons/intrusion_into_conversion-removebg-preview.png" />
+            <button type="tag" label="Troca de lado" icon="avaliacao_cicloviaria_icons/switch_side-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invisibilidade à esquerda" />
-            <button type="tag" label="Fim em contrafluxo" />
-            <button type="tag" label="Outro" />
+            <button type="tag" label="Invisibilidade à esquerda" icon="avaliacao_cicloviaria_icons/invisibility_on_left-removebg-preview.png" />
+            <button type="tag" label="Fim em contrafluxo" icon="avaliacao_cicloviaria_icons/end_on_conterflow-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Risco 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button type="tag" label="Ciclovia" />
-            <button type="tag" label="Ciclofaixa" />
-            <button type="tag" label="Ciclorrota" />
-            <button type="tag" label="Calçada compartilhada" />
+            <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
+            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="avaliacao_cicloviaria_icons/metrics-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Fluxo da ciclo" targetlayout="fluxo-ciclo" />
-            <button type="page" label="Localização na Via" targetlayout="localizacao-via" />
+            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
+            <button type="page" label="Localização na Via" targetlayout="localizacao_via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" />
-            <button type="page" label="Qtd faixas" targetlayout="faixas-via" />
+            <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="brick_floor-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
+            <button type="page" label="Quantidade de Faixas" targetlayout="faixas_via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
         </row>
     </layout>
 
     <!-- Localização da estrutura-->
-    <layout name="localizacao-via">
+    <layout name="localizacao_via">
         <row>
-            <button type="tag" label="No canteiro central" />
+            <button type="tag" label="No canteiro central" icon="avaliacao_cicloviaria_icons/center_flowerbed_ciclo-removebg-preview.png" />
+            <button type="tag" label="Na via, junto ao canteiro" icon="avaliacao_cicloviaria_icons/border_flowerbed_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Na via, junto ao canteiro" />
+            <button type="tag" label="No bordo direito de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_right-removebg-preview.png" />
+            <button type="tag" label="No bordo esquerdo de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_left-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo direito de Mão Única" />
+            <button type="tag" label="Em bordo de Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_border-removebg-preview.png" />
+            <button type="tag" label="Sobre calçada" icon="avaliacao_cicloviaria_icons/pedestrian_with_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo esquerdo de Mão Única" />
+            <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
+            <button />
         </row>
         <row>
-            <button type="tag" label="Em bordo de Mão Dupla" />
-        </row>
-        <row>
-            <button type="tag" label="Sobre calçada" />
-            <button type="tag" label="Isolada" />
+            <button type="tag" label="Remover Localização 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Fluxo da estrutura-->
     <layout name="fluxo-ciclo">
         <row>
-            <button type="tag" label="Bidirecional" />
+            <button type="tag" label="Unidirecional no Fluxo" icon="avaliacao_cicloviaria_icons/unidirect_flow-removebg-preview.png" />
+            <button type="tag" label="Bidirecional" icon="avaliacao_cicloviaria_icons/bidirect-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Bidirecional com Mão Inglesa na estrutura" />
+            <button type="tag" label="Unidirecional no Contrafluxo" icon="avaliacao_cicloviaria_icons/unidirect_unflow-removebg-preview.png" />
+            <button type="tag" label="Bidirecional com Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
         </row>
+        <row></row>
+        <row></row>
+        <row></row>
         <row>
-            <button type="tag" label="Unidirecional no fluxo" />
-        </row>
-        <row>
-            <button type="tag" label="Unidirecional no contrafluxo" />
+            <button type="tag" label="Remover Fluxo da Ciclovia 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Fluxo da via-->
     <layout name="fluxo-via">
         <row>
-            <button type="tag" label="Mão única" />
+            <button type="tag" label="Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Mão dupla" />
+            <button type="tag" label="Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Mão inglesa" />
+            <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
+        </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Fluxo da Via🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Faixas de rolamento-->
-    <layout name="faixas-via">
+    <layout name="faixas_via">
         <row>
-            <button type="tag" label="1 faixa" />
+            <button type="tag" label="1" icon="avaliacao_cicloviaria_icons/1_lane-removebg-preview.png" />
+            <button type="tag" label="2" icon="avaliacao_cicloviaria_icons/2_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="2 faixas" />
+            <button type="tag" label="3" icon="avaliacao_cicloviaria_icons/3_lanes-removebg-preview.png" />
+            <button type="tag" label="4" icon="avaliacao_cicloviaria_icons/4_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="3" />
+            <button type="tag" label="5" icon="avaliacao_cicloviaria_icons/5_lanes-removebg-preview.png" />
+            <button type="tag" label="6" icon="avaliacao_cicloviaria_icons/6_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="4" />
+            <button type="tag" label="7" icon="avaliacao_cicloviaria_icons/7_lanes-removebg-preview.png" />
+            <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="5" />
-        </row>
-        <row>
-            <button type="tag" label="6" />
-        </row>
-        <row>
-            <button type="tag" label="7" />
-        </row>
-        <row>
-            <button type="tag" label="8" />
-        </row>
-        <row>
-            <button type="tag" label="9" />
+            <button type="tag" label="Remover Faixas da Via 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Segregadores layout -->
     <layout name="segregadores">
         <row>
-            <button type="tag" label="Canteiros" />
-            <button type="tag" label="Prismas" />
-            <button type="tag" label="Guias" />
+            <button type="tag" label="Canteiros" icon="avaliacao_cicloviaria_icons/flowerbed-removebg-preview.png" />
+            <button type="tag" label="Prismas" icon="avaliacao_cicloviaria_icons/prism_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Gelo baiano" />
-            <button type="tag" label="Tachões" />
-            <button type="tag" label="Balizadores" />
+            <button type="tag" label="Guias" icon="avaliacao_cicloviaria_icons/guide_divider-removebg-preview.png" />
+            <button type="tag" label="Gelo baiano" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Pintura" />
-            <button type="tag" label="outros" />
+            <button type="tag" label="Tachões" icon="avaliacao_cicloviaria_icons/yellow_brick_small_divider-removebg-preview.png" />
+            <button type="tag" label="Balizadores" icon="avaliacao_cicloviaria_icons/beacon_divider-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/paint_divider-removebg-preview.png" />
+            <button />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Segregador 🗑️" icon="" />
         </row>
     </layout>
 
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" />
-            <button type="page" label="Sombreamento" targetlayout="sombreamento" />
+            <button type="page" label="Proteção" targetlayout="protecao" icon="avaliacao_cicloviaria_icons/security-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
         </row>
     </layout>
 
@@ -217,11 +259,16 @@
             <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
         </row>
         <row>
-            <button type="tag"
-                label="O traçado possui curvas com obstáculos que impedem visualização" />
+            <button type="tag" label="O traçado possui curvas com obstáculos que impedem visualização" />
         </row>
         <row>
             <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Avaliação de Sinuosidade 🗑️" icon=""/>
         </row>
     </layout>
 
@@ -232,8 +279,7 @@
                 <button type="tag" label="Estacionamento proibido na via" />
             </row>
             <row>
-                <button type="tag"
-                    label="Estacionamento dedicado de um lado, segregado da circulação" />
+                <button type="tag" label="Estacionamento dedicado de um lado, segregado da circulação" />
             </row>
             <row>
                 <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação" />
@@ -252,8 +298,7 @@
                 <button type="tag" label="Pintada de vermelho com interrupções" />
             </row>
             <row>
-                <button type="tag"
-                    label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
+                <button type="tag" label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" />
             </row>
             <row>
                 <button type="tag" label="Apenas faixas vermelhas nas bordas" />
@@ -301,6 +346,11 @@
         <row>
             <button type="tag" label="Não há árvores nem mudas" />
         </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Avaliação de Sombreamento 🗑️" icon=""/>
+        </row>
     </layout>
 
     <!-- Page Proteção Contra Invasão de Automóvel -->
@@ -309,8 +359,7 @@
             <button type="tag" label="Segregação impede completamente a invasão de automóvel" />
         </row>
         <row>
-            <button type="tag"
-                label="Impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+            <button type="tag" label="Impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
         </row>
         <row>
             <button type="tag" label="Poucos trechos SEM segregadores dificultando invasão" />
@@ -323,8 +372,98 @@
         </row>
     </layout>
 
-    <!-- Page Segregadores -->
-    <layout name="segregadores_acesso">
+    <!-- Page Piso/Pavimento Caracterização -->
+    <layout name="pavimento_caracterizacao">
+        <row>
+            <button type="tag" label="Concreto" icon="avaliacao_cicloviaria_icons/concret_floor-removebg-preview.png" />
+            <button type="tag" label="Asfalto" icon="avaliacao_cicloviaria_icons/asphalt_floor-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Tijolo intertravado" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
+            <button type="tag" label="Paralelepípedo" icon="avaliacao_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Terra/Barro" icon="avaliacao_cicloviaria_icons/dirt_floor-removebg-preview.png" />
+            <button />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Pavimento 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Situação de Conservação do Pavimento -->
+    <layout name="pavimento_avaliacao">
+        <row>
+            <button type="tag" label="Bom estado" />
+        </row>
+        <row>
+            <button type="tag" label="Pequenas imperfeições, como fissuras" />
+        </row>
+        <row>
+            <button type="tag" label="Irregularidades que demandam desvio para circulação" />
+        </row>
+        <row>
+            <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
+        </row>
+        <row>
+            <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Totalmente destruído, impossível transitar" />
+        </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Avaliação de Pavimento 🗑️" icon=""/>
+        </row>
+    </layout>
+
+    <!-- Página Tipo da Via -->
+    <layout name="tipo_da_via">
+        <row>
+            <button type="tag" label="Ciclovia" icon="avaliacao_cicloviaria_icons/ciclo_lane-removebg-preview.png" />
+            <button type="tag" label="Ciclofaixa" icon="avaliacao_cicloviaria_icons/ciclo_range-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="tag" label="Ciclorrota" icon="avaliacao_cicloviaria_icons/ciclo_route-removebg-preview.png" />
+            <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Tipo da Via 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Página Proteção -->
+    <layout name="protecao">
+        <row>
+            <button type="tag" label="SE CICLOVIA, segregação impede completamente a invasão de automóvel e não há trechos desprotegidos" />
+        </row>
+        <row>
+            <button type="tag" label="SE CICLOFAIXA, impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+        </row>
+        <row>
+            <button type="tag" label="Poucos trechos COM segregadores dificultando invasão" />
+        </row>
+        <row>
+            <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Avaliação de Proteção 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Página Segregadores Avaliação -->
+    <layout name="segregadores_avaliacao">
         <row>
             <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
         </row>
@@ -334,29 +473,224 @@
         <row>
             <button type="tag" label="Segregadores IMPEDEM o acesso" />
         </row>
-    </layout>
-
-    <!-- Page Piso/Pavimento -->
-    <layout name="piso_pavimento">
+        <row></row>
+        <row></row>
+        <row></row>
         <row>
-            <button type="tag" label="Concreto" />
-            <button type="tag" label="Asfalto" />
-            <button type="tag" label="Tijolo intertravado" />
-            <button type="tag" label="Paralelepípedo rejuntado com cimento" />
-            <button type="tag" label="Terra/Barro" />
-            <button type="tag" label="Outro" />
+            <button type="tag" label="Remover Avaliação de Segregadores 🗑️" icon=""/>
         </row>
     </layout>
 
-    <!-- Page Situação de Conservação do Pavimento -->
-    <layout name="situacao_conservacao_pavimento">
+    <!-- Layout Acesso Ciclovias -->
+    <layout name="acesso_ciclovias">
         <row>
-            <button type="tag" label="Bom estado" />
-            <button type="tag" label="Pequenas imperfeições, como fissuras" />
-            <button type="tag" label="Irregularidades que demandam desvio para circulação" />
-            <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
-            <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
-            <button type="tag" label="Totalmente destruído, impossível transitar" />
+            <button type="tag" label="Via transversal COM acesso à ciclovia" />
+        </row>
+        <row>
+            <button type="tag" label="Via transversal SEM acesso à ciclovia" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Acesso Ciclovias 🗑️" icon=""/>
+        </row>
+    </layout>
+
+    <!-- Page Largura Caracterização -->
+    <layout name="larguras_estrutura_qte">
+        <row>
+            <button type="tag" label="Área transitável da estrutura (cm)" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Faixa de amortecimento da estrutura (cm)" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Faixa de rolamento contígua à estrutura (cm)" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Total incluindo a estrutura (cm)" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Largura 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Controle de Velocidade -->
+    <layout name="controle_de_velocidade_qte">
+        <row>
+            <button type="tag" label="Sinalização VERTICAL" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Sinalização HORIZONTAL" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Travessia de pedestre em nível" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Lombadas físicas" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Radar/Lombada Eletrônica" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Piso diferenciado" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Nenhum elemento de controle de velocidade na via" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Controle de Velocidade 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Avaliação -->
+    <layout name="sinalizacao_horizontal_avaliacao">
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="page" label="Padrão de pintura vermelha" targetlayout="pintura_vermelha_padrao" icon="" />
+            <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situacao" icon="" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Avaliação - Padrão Pintura Vermelha -->
+    <layout name="pintura_vermelha_padrao">
+        <row>
+            <button type="tag" label="Toda área de circulação pintada de vermelho" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Pintada de vermelho com interrupções" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Apenas faixas vermelhas nas bordas" icon="" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Padrão de Pintura 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Avaliação - Situação Pintura Vermelha -->
+    <layout name="pintura_vermelha_situacao">
+        <row>
+            <button type="tag" label="A pintura está boa, COMPLETA e visível" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura está boa, mas FALHA em ALGUNS pontos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura é falha em VÁRIOS pontos" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="A pintura é MUITO falha, mostrando muito asfalto" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" icon="" />
+        </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Situação Pintura 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo -->
+    <layout name="sinalizacao_horizontal_qte">
+        <row>
+            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="avaliacao_cicloviaria_icons/cross_signaling-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="avaliacao_cicloviaria_icons/floor_signaling-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Pintura ao longo de cruzamentos e travessias -->
+    <layout name="pintura_cruzamentos">
+        <row>
+            <button type="tag" label="Registrar pintura em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar pintura em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Registro de Pintura 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Pictogramas ao longo do trecho -->
+    <layout name="pictograma_trecho">
+        <row>
+            <button type="tag" label="Registrar pictograma em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar pictograma em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Registro de Pictograma 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Sinalização Horizontal - Quantitativo - Setas ao longo da estrutura -->
+    <layout name="setas_extrutura">
+        <row>
+            <button type="tag" label="Registrar seta em BOA condição" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar seta em MAU condição" />
+        </row>
+        <row></row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Registro de Setas 🗑️" icon="" />
+        </row>
+    </layout>
+
+    <!-- Page Iluminação da Estrutura - Quantitativo -->
+    <layout name="iluminacao_estrutura_qte">
+        <row>
+            <button type="tag" label="Registrar iluminação para ciclistas" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar iluminação geral na via do mesmo lado da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Registrar iluminação geral na via do outro lado da infraestrutura" />
+        </row>
+        <row></row>
+        <row></row>
+        <row>
+            <button type="tag" label="Remover Tipo de Iluminação 🗑️" icon="" />
         </row>
     </layout>
 </layouts>
