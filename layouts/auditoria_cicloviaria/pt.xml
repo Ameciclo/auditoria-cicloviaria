@@ -2,19 +2,19 @@
     <!-- Main layout -->
     <layout name="root">
         <row>
-            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="avaliacao_cicloviaria_icons/flow_direction.png" />
-            <button type="page" label="Placas" targetlayout="placas" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="page" label="Obstáculos" targetlayout="obstaculos" icon="avaliacao_cicloviaria_icons/obstacle.png" />
+            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo" icon="auditoria_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Placas" targetlayout="placas" icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="page" label="Obstáculos" targetlayout="obstaculos" icon="auditoria_cicloviaria_icons/obstacle.png" />
         </row>
         <row>
-            <button type="page" label="Riscos" targetlayout="riscos" icon="avaliacao_cicloviaria_icons/risk_situation.png" />
-            <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="avaliacao_cicloviaria_icons/bike_lane_access-removebg-preview.png" />
-            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="avaliacao_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Riscos" targetlayout="riscos" icon="auditoria_cicloviaria_icons/risk_situation.png" />
+            <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="auditoria_cicloviaria_icons/bike_lane_access-removebg-preview.png" />
+            <button type="page" label="Avaliações" targetlayout="avaliacoes" icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
-            <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="avaliacao_cicloviaria_icons/electronic_spine-removebg-preview.png" />
-            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
-            <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="avaliacao_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
+            <button type="page" label="Controle de Velocidade" targetlayout="controle_de_velocidade_qte" icon="auditoria_cicloviaria_icons/electronic_spine-removebg-preview.png" />
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_qte" icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+            <button type="page" label="Iluminalçao Estrutura" targetlayout="iluminacao_estrutura_qte" icon="auditoria_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -26,24 +26,24 @@
     <!-- Placas layout -->
     <layout name="placas">
         <row>
-            <button type="tag" label="R-34" icon="avaliacao_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="A-30" icon="avaliacao_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar" icon="avaliacao_cicloviaria_icons/complementary_plate-removebg-preview.png" />
+            <button type="tag" label="R-34" icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />
+            <button type="tag" label="A-30" icon="auditoria_cicloviaria_icons/cross_vertical_sign.png" />
+            <button type="tag" label="Complementar" icon="auditoria_cicloviaria_icons/complementary_plate-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Início" icon="avaliacao_cicloviaria_icons/bike_lane_start-removebg-preview.png" />
-            <button type="tag" label="Fim" icon="avaliacao_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
-            <button type="tag" label="Semáforo exclusivo" icon="avaliacao_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
+            <button type="tag" label="Início" icon="auditoria_cicloviaria_icons/bike_lane_start-removebg-preview.png" />
+            <button type="tag" label="Fim" icon="auditoria_cicloviaria_icons/bike_lane_end-removebg-preview.png" />
+            <button type="tag" label="Semáforo exclusivo" icon="auditoria_cicloviaria_icons/bicicle_traffic_light-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="20km/h" icon="avaliacao_cicloviaria_icons/speed_sign_20-removebg-preview.png" />
-            <button type="tag" label="30km/h" icon="avaliacao_cicloviaria_icons/speed_sign_30.png" />
-            <button type="tag" label="40km/h" icon="avaliacao_cicloviaria_icons/speed_sign_40-removebg-preview.png" />
+            <button type="tag" label="20km/h" icon="auditoria_cicloviaria_icons/speed_sign_20-removebg-preview.png" />
+            <button type="tag" label="30km/h" icon="auditoria_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="40km/h" icon="auditoria_cicloviaria_icons/speed_sign_40-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="50km/h" icon="avaliacao_cicloviaria_icons/speed_sign_50-removebg-preview.png" />
-            <button type="tag" label="60km/h" icon="avaliacao_cicloviaria_icons/speed_sign_60-removebg-preview.png" />
-            <button type="tag" label="80km/h" icon="avaliacao_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
+            <button type="tag" label="50km/h" icon="auditoria_cicloviaria_icons/speed_sign_50-removebg-preview.png" />
+            <button type="tag" label="60km/h" icon="auditoria_cicloviaria_icons/speed_sign_60-removebg-preview.png" />
+            <button type="tag" label="80km/h" icon="auditoria_cicloviaria_icons/speed_sign_80-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Remover Placa 🗑️" icon=""/>
@@ -53,19 +53,19 @@
     <!-- Obstáculos layout -->
     <layout name="obstaculos">
         <row>
-            <button type="tag" label="Bueiro" icon="avaliacao_cicloviaria_icons/manhole-removebg-preview.png" />
-            <button type="tag" label="Raíz" icon="avaliacao_cicloviaria_icons/tree_root-removebg-preview.png" />
+            <button type="tag" label="Bueiro" icon="auditoria_cicloviaria_icons/manhole-removebg-preview.png" />
+            <button type="tag" label="Raíz" icon="auditoria_cicloviaria_icons/tree_root-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Buraco" icon="avaliacao_cicloviaria_icons/hole-removebg-preview.png" />
-            <button type="tag" label="Vala profunda" icon="avaliacao_cicloviaria_icons/ditch-removebg-preview.png" />
+            <button type="tag" label="Buraco" icon="auditoria_cicloviaria_icons/hole-removebg-preview.png" />
+            <button type="tag" label="Vala profunda" icon="auditoria_cicloviaria_icons/ditch-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Desnível" icon="avaliacao_cicloviaria_icons/desalign_bike_lane-removebg-preview.png" />
+            <button type="tag" label="Desnível" icon="auditoria_cicloviaria_icons/desalign_bike_lane-removebg-preview.png" />
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
@@ -79,19 +79,19 @@
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Paradas de ônibus" icon="avaliacao_cicloviaria_icons/bus_stop-removebg-preview.png" />
-            <button type="tag" label="Cruzamento perigoso" icon="avaliacao_cicloviaria_icons/dangerous_intersection-removebg-preview.png" />
+            <button type="tag" label="Paradas de ônibus" icon="auditoria_cicloviaria_icons/bus_stop-removebg-preview.png" />
+            <button type="tag" label="Cruzamento perigoso" icon="auditoria_cicloviaria_icons/dangerous_intersection-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invasão na conversão" icon="avaliacao_cicloviaria_icons/intrusion_into_conversion-removebg-preview.png" />
-            <button type="tag" label="Troca de lado" icon="avaliacao_cicloviaria_icons/switch_side-removebg-preview.png" />
+            <button type="tag" label="Invasão na conversão" icon="auditoria_cicloviaria_icons/intrusion_into_conversion-removebg-preview.png" />
+            <button type="tag" label="Troca de lado" icon="auditoria_cicloviaria_icons/switch_side-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Invisibilidade à esquerda" icon="avaliacao_cicloviaria_icons/invisibility_on_left-removebg-preview.png" />
-            <button type="tag" label="Fim em contrafluxo" icon="avaliacao_cicloviaria_icons/end_on_conterflow-removebg-preview.png" />
+            <button type="tag" label="Invisibilidade à esquerda" icon="auditoria_cicloviaria_icons/invisibility_on_left-removebg-preview.png" />
+            <button type="tag" label="Fim em contrafluxo" icon="auditoria_cicloviaria_icons/end_on_conterflow-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -102,39 +102,39 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="avaliacao_cicloviaria_icons/lane_type-removebg-preview.png"/>
-            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="avaliacao_cicloviaria_icons/metrics-removebg-preview.png" />
+            <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="auditoria_cicloviaria_icons/lane_type-removebg-preview.png"/>
+            <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="auditoria_cicloviaria_icons/metrics-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="avaliacao_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
-            <button type="page" label="Localização na Via" targetlayout="localizacao_via" icon="avaliacao_cicloviaria_icons/ciclo_location-removebg-preview.png" />
+            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo" icon="auditoria_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
+            <button type="page" label="Localização na Via" targetlayout="localizacao_via" icon="auditoria_cicloviaria_icons/ciclo_location-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Segregadores" targetlayout="segregadores" icon="avaliacao_cicloviaria_icons/segregator_type.png" />
+            <button type="page" label="Segregadores" targetlayout="segregadores" icon="auditoria_cicloviaria_icons/segregator_type.png" />
             <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="brick_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="avaliacao_cicloviaria_icons/road_flow-removebg-preview.png" />
-            <button type="page" label="Quantidade de Faixas" targetlayout="faixas_via" icon="avaliacao_cicloviaria_icons/road_lane_number-removebg-preview.png" />
+            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="auditoria_cicloviaria_icons/road_flow-removebg-preview.png" />
+            <button type="page" label="Quantidade de Faixas" targetlayout="faixas_via" icon="auditoria_cicloviaria_icons/road_lane_number-removebg-preview.png" />
         </row>
     </layout>
 
     <!-- Localização da estrutura-->
     <layout name="localizacao_via">
         <row>
-            <button type="tag" label="No canteiro central" icon="avaliacao_cicloviaria_icons/center_flowerbed_ciclo-removebg-preview.png" />
-            <button type="tag" label="Na via, junto ao canteiro" icon="avaliacao_cicloviaria_icons/border_flowerbed_ciclo-removebg-preview.png" />
+            <button type="tag" label="No canteiro central" icon="auditoria_cicloviaria_icons/center_flowerbed_ciclo-removebg-preview.png" />
+            <button type="tag" label="Na via, junto ao canteiro" icon="auditoria_cicloviaria_icons/border_flowerbed_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo direito de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_right-removebg-preview.png" />
-            <button type="tag" label="No bordo esquerdo de Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_left-removebg-preview.png" />
+            <button type="tag" label="No bordo direito de Mão Única" icon="auditoria_cicloviaria_icons/unidirect_right-removebg-preview.png" />
+            <button type="tag" label="No bordo esquerdo de Mão Única" icon="auditoria_cicloviaria_icons/unidirect_left-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Em bordo de Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_border-removebg-preview.png" />
-            <button type="tag" label="Sobre calçada" icon="avaliacao_cicloviaria_icons/pedestrian_with_ciclo-removebg-preview.png" />
+            <button type="tag" label="Em bordo de Mão Dupla" icon="auditoria_cicloviaria_icons/bidirect_border-removebg-preview.png" />
+            <button type="tag" label="Sobre calçada" icon="auditoria_cicloviaria_icons/pedestrian_with_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Isolada" icon="avaliacao_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
+            <button type="tag" label="Isolada" icon="auditoria_cicloviaria_icons/isolated_ciclo-removebg-preview.png" />
             <button />
         </row>
         <row>
@@ -145,12 +145,12 @@
     <!-- Fluxo da estrutura-->
     <layout name="fluxo-ciclo">
         <row>
-            <button type="tag" label="Unidirecional no Fluxo" icon="avaliacao_cicloviaria_icons/unidirect_flow-removebg-preview.png" />
-            <button type="tag" label="Bidirecional" icon="avaliacao_cicloviaria_icons/bidirect-removebg-preview.png" />
+            <button type="tag" label="Unidirecional no Fluxo" icon="auditoria_cicloviaria_icons/unidirect_flow-removebg-preview.png" />
+            <button type="tag" label="Bidirecional" icon="auditoria_cicloviaria_icons/bidirect-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Unidirecional no Contrafluxo" icon="avaliacao_cicloviaria_icons/unidirect_unflow-removebg-preview.png" />
-            <button type="tag" label="Bidirecional com Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
+            <button type="tag" label="Unidirecional no Contrafluxo" icon="auditoria_cicloviaria_icons/unidirect_unflow-removebg-preview.png" />
+            <button type="tag" label="Bidirecional com Mão Inglesa" icon="auditoria_cicloviaria_icons/bidirect_english_way-removebg-preview.png" />
         </row>
         <row></row>
         <row></row>
@@ -163,13 +163,13 @@
     <!-- Fluxo da via-->
     <layout name="fluxo-via">
         <row>
-            <button type="tag" label="Mão Única" icon="avaliacao_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
+            <button type="tag" label="Mão Única" icon="auditoria_cicloviaria_icons/unidirect_road_flow-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Mão Dupla" icon="avaliacao_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
+            <button type="tag" label="Mão Dupla" icon="auditoria_cicloviaria_icons/bidirect_road_flow-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Mão Inglesa" icon="avaliacao_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
+            <button type="tag" label="Mão Inglesa" icon="auditoria_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
         <row></row>
         <row></row>
@@ -181,20 +181,20 @@
     <!-- Faixas de rolamento-->
     <layout name="faixas_via">
         <row>
-            <button type="tag" label="1" icon="avaliacao_cicloviaria_icons/1_lane-removebg-preview.png" />
-            <button type="tag" label="2" icon="avaliacao_cicloviaria_icons/2_lanes-removebg-preview.png" />
+            <button type="tag" label="1" icon="auditoria_cicloviaria_icons/1_lane-removebg-preview.png" />
+            <button type="tag" label="2" icon="auditoria_cicloviaria_icons/2_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="3" icon="avaliacao_cicloviaria_icons/3_lanes-removebg-preview.png" />
-            <button type="tag" label="4" icon="avaliacao_cicloviaria_icons/4_lanes-removebg-preview.png" />
+            <button type="tag" label="3" icon="auditoria_cicloviaria_icons/3_lanes-removebg-preview.png" />
+            <button type="tag" label="4" icon="auditoria_cicloviaria_icons/4_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="5" icon="avaliacao_cicloviaria_icons/5_lanes-removebg-preview.png" />
-            <button type="tag" label="6" icon="avaliacao_cicloviaria_icons/6_lanes-removebg-preview.png" />
+            <button type="tag" label="5" icon="auditoria_cicloviaria_icons/5_lanes-removebg-preview.png" />
+            <button type="tag" label="6" icon="auditoria_cicloviaria_icons/6_lanes-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="7" icon="avaliacao_cicloviaria_icons/7_lanes-removebg-preview.png" />
-            <button type="tag" label="8" icon="avaliacao_cicloviaria_icons/8_lanes-removebg-preview.png" />
+            <button type="tag" label="7" icon="auditoria_cicloviaria_icons/7_lanes-removebg-preview.png" />
+            <button type="tag" label="8" icon="auditoria_cicloviaria_icons/8_lanes-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Remover Faixas da Via 🗑️" icon="" />
@@ -204,23 +204,23 @@
     <!-- Segregadores layout -->
     <layout name="segregadores">
         <row>
-            <button type="tag" label="Canteiros" icon="avaliacao_cicloviaria_icons/flowerbed-removebg-preview.png" />
-            <button type="tag" label="Prismas" icon="avaliacao_cicloviaria_icons/prism_divider-removebg-preview.png" />
+            <button type="tag" label="Canteiros" icon="auditoria_cicloviaria_icons/flowerbed-removebg-preview.png" />
+            <button type="tag" label="Prismas" icon="auditoria_cicloviaria_icons/prism_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Guias" icon="avaliacao_cicloviaria_icons/guide_divider-removebg-preview.png" />
-            <button type="tag" label="Gelo baiano" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
+            <button type="tag" label="Guias" icon="auditoria_cicloviaria_icons/guide_divider-removebg-preview.png" />
+            <button type="tag" label="Gelo baiano" icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Tachões" icon="avaliacao_cicloviaria_icons/yellow_brick_small_divider-removebg-preview.png" />
-            <button type="tag" label="Balizadores" icon="avaliacao_cicloviaria_icons/beacon_divider-removebg-preview.png" />
+            <button type="tag" label="Tachões" icon="auditoria_cicloviaria_icons/yellow_brick_small_divider-removebg-preview.png" />
+            <button type="tag" label="Balizadores" icon="auditoria_cicloviaria_icons/beacon_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Pintura" icon="avaliacao_cicloviaria_icons/paint_divider-removebg-preview.png" />
+            <button type="tag" label="Pintura" icon="auditoria_cicloviaria_icons/paint_divider-removebg-preview.png" />
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -231,22 +231,22 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Proteção" targetlayout="protecao" icon="avaliacao_cicloviaria_icons/security-removebg-preview.png" />
+            <button type="page" label="Proteção" targetlayout="protecao" icon="auditoria_cicloviaria_icons/security-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="avaliacao_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
+            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="avaliacao_cicloviaria_icons/sinuosity-removebg-preview.png" />
+            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="auditoria_cicloviaria_icons/sinuosity-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="avaliacao_cicloviaria_icons/shading-removebg-preview.png" />
+            <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="auditoria_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
         </row>
     </layout>
 
@@ -375,19 +375,19 @@
     <!-- Page Piso/Pavimento Caracterização -->
     <layout name="pavimento_caracterizacao">
         <row>
-            <button type="tag" label="Concreto" icon="avaliacao_cicloviaria_icons/concret_floor-removebg-preview.png" />
-            <button type="tag" label="Asfalto" icon="avaliacao_cicloviaria_icons/asphalt_floor-removebg-preview.png" />
+            <button type="tag" label="Concreto" icon="auditoria_cicloviaria_icons/concret_floor-removebg-preview.png" />
+            <button type="tag" label="Asfalto" icon="auditoria_cicloviaria_icons/asphalt_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Tijolo intertravado" icon="avaliacao_cicloviaria_icons/brick_floor-removebg-preview.png" />
-            <button type="tag" label="Paralelepípedo" icon="avaliacao_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
+            <button type="tag" label="Tijolo intertravado" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
+            <button type="tag" label="Paralelepípedo" icon="auditoria_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Terra/Barro" icon="avaliacao_cicloviaria_icons/dirt_floor-removebg-preview.png" />
+            <button type="tag" label="Terra/Barro" icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -425,12 +425,12 @@
     <!-- Página Tipo da Via -->
     <layout name="tipo_da_via">
         <row>
-            <button type="tag" label="Ciclovia" icon="avaliacao_cicloviaria_icons/ciclo_lane-removebg-preview.png" />
-            <button type="tag" label="Ciclofaixa" icon="avaliacao_cicloviaria_icons/ciclo_range-removebg-preview.png" />
+            <button type="tag" label="Ciclovia" icon="auditoria_cicloviaria_icons/ciclo_lane-removebg-preview.png" />
+            <button type="tag" label="Ciclofaixa" icon="auditoria_cicloviaria_icons/ciclo_range-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Ciclorrota" icon="avaliacao_cicloviaria_icons/ciclo_route-removebg-preview.png" />
-            <button type="tag" label="Calçada compartilhada" icon="avaliacao_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
+            <button type="tag" label="Ciclorrota" icon="auditoria_cicloviaria_icons/ciclo_route-removebg-preview.png" />
+            <button type="tag" label="Calçada compartilhada" icon="auditoria_cicloviaria_icons/shared_sidewalk-removebg-preview.png" />
         </row>
         <row></row>
         <row></row>
@@ -547,7 +547,7 @@
             <button type="tag" label="Nenhum elemento de controle de velocidade na via" icon="" />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="avaliacao_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -618,13 +618,13 @@
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
         <row>
-            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="avaliacao_cicloviaria_icons/cross_signaling-removebg-preview.png" />
+            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="auditoria_cicloviaria_icons/cross_signaling-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="avaliacao_cicloviaria_icons/floor_signaling-removebg-preview.png" />
+            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="auditoria_cicloviaria_icons/floor_signaling-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="avaliacao_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
         </row>
     </layout>
 
