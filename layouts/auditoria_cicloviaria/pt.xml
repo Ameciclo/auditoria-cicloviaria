@@ -237,19 +237,19 @@
     <!-- Página Avaliações -->
     <layout name="avaliacoes">
         <row>
-            <button type="page" label="Proteção" targetlayout="protecao" icon="auditoria_cicloviaria_icons/security-removebg-preview.png" />
-            <button type="page" label="Segregadores" targetlayout="segregadores_avaliacao" icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
+            <button type="page" label="Proteção cicloVIAs e FAIXAs" targetlayout="protecao" icon="auditoria_cicloviaria_icons/security-removebg-preview.png" />
+            <button type="page" label="Acesso à cicloVIA" targetlayout="segregadores_avaliacao" icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinuosidade" targetlayout="sinuosidade" icon="auditoria_cicloviaria_icons/sinuosity-removebg-preview.png" />
-            <button type="page" label="Sombreamento" targetlayout="sombreamento" icon="auditoria_cicloviaria_icons/shading-removebg-preview.png" />
+            <button type="page" label="Sinuosidade da estrutura" targetlayout="sinuosidade" icon="auditoria_cicloviaria_icons/sinuosity-removebg-preview.png" />
+            <button type="page" label="Arborização da estrutura" targetlayout="sombreamento" icon="auditoria_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Situação da pintura" targetlayout="pintura_vermelha_situacao" icon="auditoria_cicloviaria_icons/paint_divider-removebg-preview.png" />
             <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao" icon="auditoria_cicloviaria_icons/ciclo_range-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
+            <button type="page" label="Situação do Pavimento" targetlayout="pavimento_avaliacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
             <button />
         </row>
     </layout>
