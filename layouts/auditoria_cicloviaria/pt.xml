@@ -493,7 +493,7 @@
         <row>
             <button type="tag" label="Via transversal SEM acesso à ciclovia" />
         </row>
-        <row></row>
+            <button type="tag" label="Acesso sem uma via transversal" />
         <row></row>
         <row></row>
         <row></row>
