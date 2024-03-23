@@ -252,7 +252,10 @@
             <button type="page" label="Pavimento" targetlayout="pavimento_avaliacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinalização Horizontal" targetlayout="sinalizacao_horizontal_avaliacao" icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
+            <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao" icon="auditoria_cicloviaria_icons/ciclo_range-removebg-preview.png" />
+        </row>
+        <row>
+            <button type="page" label="Situação da pintura" targetlayout="pintura_vermelha_situacao" icon="auditoria_cicloviaria_icons/paint_divider-removebg-preview.png" />
         </row>
     </layout>
 
@@ -559,20 +562,6 @@
         <row>
             <button type="tag" label="Remover Controle de Velocidade 🗑️" icon="" />
         </row>
-    </layout>
-
-    <!-- Page Sinalização Horizontal - Avaliação -->
-    <layout name="sinalizacao_horizontal_avaliacao">
-        <row></row>
-        <row></row>
-        <row></row>
-        <row>
-            <button type="page" label="Padrão de pintura vermelha" targetlayout="pintura_vermelha_padrao" icon="" />
-            <button type="page" label="Situação da pintura vermelha" targetlayout="pintura_vermelha_situacao" icon="" />
-        </row>
-        <row></row>
-        <row></row>
-        <row></row>
     </layout>
 
     <!-- Page Sinalização Horizontal - Avaliação - Padrão Pintura Vermelha -->
