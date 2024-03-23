@@ -111,7 +111,7 @@
         </row>
         <row>
             <button type="page" label="Segregadores" targetlayout="segregadores" icon="auditoria_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="brick_floor-removebg-preview.png" />
+            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via" icon="auditoria_cicloviaria_icons/road_flow-removebg-preview.png" />
