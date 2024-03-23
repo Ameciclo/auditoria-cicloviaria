@@ -79,22 +79,22 @@
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Baias de ônibus internas à ciclo" />
+            <button type="tag" label="Baias de ônibus internas à ciclo" icon="" />
         </row>
         <row>
-            <button type="tag" label="Cruzamentos com veículos em curva de ângulo aberto e sem tratamento de redução de velocidade" />
+            <button type="tag" label="Cruzamentos com veículos em curva de ângulo aberto e sem tratamento de redução de velocidade" icon="" />
         </row>
         <row>
-            <button type="tag" label="Trajeto de conversão permite invasão de automóvel de trecho de linha contínua da estrutura" />
+            <button type="tag" label="Trajeto de conversão permite invasão de automóvel de trecho de linha contínua da estrutura" icon="" />
         </row>
         <row>
-            <button type="tag" label="Troca lado da estrutura sem redutores de velocidade ou semáforos" />
+            <button type="tag" label="Troca lado da estrutura sem redutores de velocidade ou semáforos" icon="" />
         </row>
         <row>
-            <button type="tag" label="Conversão à esquerda de automóvel com invisibilidade de ciclista" />
+            <button type="tag" label="Conversão à esquerda de automóvel com invisibilidade de ciclista" icon="" />
         </row>
         <row>
-            <button type="tag" label="Fim repentino de estrutura no contrafluxo" />
+            <button type="tag" label="Fim repentino de estrutura no contrafluxo" icon="" />
         </row>
         <row>
             <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
