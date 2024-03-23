@@ -518,7 +518,7 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Total incluindo a estrutura (cm)" />
+            <button type="tag" label="Total da via incluindo a estrutura (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
