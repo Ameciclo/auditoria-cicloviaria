@@ -530,9 +530,6 @@
     <!-- Page Controle de Velocidade -->
     <layout name="controle_de_velocidade_qte">
         <row>
-            <button type="tag" label="Sinalização VERTICAL" icon="" />
-        </row>
-        <row>
             <button type="tag" label="Sinalização HORIZONTAL" icon="" />
         </row>
         <row>
