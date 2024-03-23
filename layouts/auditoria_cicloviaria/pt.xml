@@ -626,7 +626,7 @@
     <!-- Page Iluminação da Estrutura - Quantitativo -->
     <layout name="iluminacao_estrutura_qte">
         <row>
-            <button type="tag" label="Registrar iluminação para ciclistas" />
+            <button type="tag" label="Registrar iluminação dedicada para ciclistas" />
         </row>
         <row>
             <button type="tag" label="Registrar iluminação geral na via do mesmo lado da estrutura" />
