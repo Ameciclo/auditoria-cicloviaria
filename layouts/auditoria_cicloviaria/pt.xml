@@ -79,16 +79,22 @@
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Paradas de ônibus" icon="auditoria_cicloviaria_icons/bus_stop-removebg-preview.png" />
-            <button type="tag" label="Cruzamento perigoso" icon="auditoria_cicloviaria_icons/dangerous_intersection-removebg-preview.png" />
+            <button type="tag" label="Baias de ônibus internas à ciclo" />
         </row>
         <row>
-            <button type="tag" label="Invasão na conversão" icon="auditoria_cicloviaria_icons/intrusion_into_conversion-removebg-preview.png" />
-            <button type="tag" label="Troca de lado" icon="auditoria_cicloviaria_icons/switch_side-removebg-preview.png" />
+            <button type="tag" label="Cruzamentos com veículos em curva de ângulo aberto e sem tratamento de redução de velocidade" />
         </row>
         <row>
-            <button type="tag" label="Invisibilidade à esquerda" icon="auditoria_cicloviaria_icons/invisibility_on_left-removebg-preview.png" />
-            <button type="tag" label="Fim em contrafluxo" icon="auditoria_cicloviaria_icons/end_on_conterflow-removebg-preview.png" />
+            <button type="tag" label="Trajeto de conversão permite invasão de automóvel de trecho de linha contínua da estrutura" />
+        </row>
+        <row>
+            <button type="tag" label="Troca lado da estrutura sem redutores de velocidade ou semáforos" />
+        </row>
+        <row>
+            <button type="tag" label="Conversão à esquerda de automóvel com invisibilidade de ciclista" />
+        </row>
+        <row>
+            <button type="tag" label="Fim repentino de estrutura no contrafluxo" />
         </row>
         <row>
             <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
