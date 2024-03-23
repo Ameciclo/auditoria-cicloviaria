@@ -102,7 +102,7 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo da Via" icon="auditoria_cicloviaria_icons/lane_type-removebg-preview.png"/>
+            <button targetlayout="tipo_da_via" type="page" label="Tipo de Ciclo" icon="auditoria_cicloviaria_icons/lane_type-removebg-preview.png"/>
             <button type="page" label="Larguras da Via" targetlayout="larguras_estrutura_qte" icon="auditoria_cicloviaria_icons/metrics-removebg-preview.png" />
         </row>
         <row>
@@ -436,7 +436,7 @@
         <row></row>
         <row></row>
         <row>
-            <button type="tag" label="Remover Tipo da Via 🗑️" icon="" />
+            <button type="tag" label="Remover Tipo de Ciclo 🗑️" icon="" />
         </row>
     </layout>
 
