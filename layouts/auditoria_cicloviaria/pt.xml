@@ -605,61 +605,21 @@
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
         <row>
-            <button type="page" label="Pintura ao longo de cruzamentos e travessias" targetlayout="pintura_cruzamentos" icon="auditoria_cicloviaria_icons/cross_signaling-removebg-preview.png" />
+            <button type="tag" label="Em cruzamento BOA condição"  icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
+            <button type="tag" label="Em cruzamento MÁ condição"  icon="auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png" />       
         </row>
         <row>
-            <button type="page" label="Pictogramas ao longo do trecho" targetlayout="pictograma_trecho" icon="auditoria_cicloviaria_icons/floor_signaling-removebg-preview.png" />
+            <button type="tag" label="Pictograma BOA condição" icon="auditoria_cicloviaria_icons/picto_and_arrow.png"/>
+            <button type="tag" label="Pictograma MÁ condição" icon="auditoria_cicloviaria_icons/picto_and_arrow-bad.png"/>       
         </row>
         <row>
-            <button type="page" label="Setas ao longo da estrutura" targetlayout="setas_extrutura" icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
-        </row>
-    </layout>
-
-    <!-- Page Sinalização Horizontal - Quantitativo - Pintura ao longo de cruzamentos e travessias -->
-    <layout name="pintura_cruzamentos">
-        <row>
-            <button type="tag" label="Registrar pintura em BOA condição" />
+            <button type="tag" label="Seta BOA condição" icon="auditoria_cicloviaria_icons/arrow.png" />
+            <button type="tag" label="Seta MÁ condição"  icon="auditoria_cicloviaria_icons/arrow-bad.png" />
         </row>
         <row>
-            <button type="tag" label="Registrar pintura em MAU condição" />
-        </row>
-        <row></row>
-        <row></row>
-        <row></row>
-        <row>
-            <button type="tag" label="Remover Registro de Pintura 🗑️" icon="" />
-        </row>
-    </layout>
-
-    <!-- Page Sinalização Horizontal - Quantitativo - Pictogramas ao longo do trecho -->
-    <layout name="pictograma_trecho">
-        <row>
-            <button type="tag" label="Registrar pictograma em BOA condição" />
         </row>
         <row>
-            <button type="tag" label="Registrar pictograma em MAU condição" />
-        </row>
-        <row></row>
-        <row></row>
-        <row></row>
-        <row>
-            <button type="tag" label="Remover Registro de Pictograma 🗑️" icon="" />
-        </row>
-    </layout>
-
-    <!-- Page Sinalização Horizontal - Quantitativo - Setas ao longo da estrutura -->
-    <layout name="setas_extrutura">
-        <row>
-            <button type="tag" label="Registrar seta em BOA condição" />
-        </row>
-        <row>
-            <button type="tag" label="Registrar seta em MAU condição" />
-        </row>
-        <row></row>
-        <row></row>
-        <row></row>
-        <row>
-            <button type="tag" label="Remover Registro de Setas 🗑️" icon="" />
+            <button type="tag" label="Remover registro da pintura 🗑️" icon="" />
         </row>
     </layout>
 
