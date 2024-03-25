@@ -292,6 +292,10 @@
             <row>
                 <button type="tag" label="Estacionamento dedicado dos dois lados" />
             </row>
+            <row>
+                <button type="tag" label="Remover Estacionamento 🗑️" icon=""/>
+            </row>
+
         </layout>
 
         <!-- Page Padrão de Pintura Vermelha -->
@@ -307,6 +311,9 @@
             </row>
             <row>
                 <button type="tag" label="Apenas faixas vermelhas nas bordas" />
+            </row>
+            <row>
+                <button type="tag" label="Remover Padrão Pintura 🗑️" icon=""/>
             </row>
         </layout>
 
@@ -326,6 +333,9 @@
             </row>
             <row>
                 <button type="tag" label="Pintura APAGADA ou somente rastros de tinta" />
+            </row>
+            <row>
+                <button type="tag" label="Remover Situação Pintura 🗑️" icon=""/>
             </row>
         </layout>
     </layouts>
@@ -374,6 +384,9 @@
         </row>
         <row>
             <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Proteção de Invasão 🗑️" icon=""/>
         </row>
     </layout>
 
