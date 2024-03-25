@@ -121,8 +121,8 @@
             <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao" icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Quantidade de Faixas" targetlayout="faixas_via" icon="auditoria_cicloviaria_icons/road_lane_number-removebg-preview.png" />
-            <button />
+            <button type="page" label="Faixas de rolamento" targetlayout="faixas_via" icon="auditoria_cicloviaria_icons/road_lane_number-removebg-preview.png" />
+            <button type="page" label="Estacionamento na via" targetlayout="estacionamento_na_via" icon="auditoria_cicloviaria_icons/estacionamento.png" />
         </row>
     </layout>
 
