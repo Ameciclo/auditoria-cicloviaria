@@ -121,13 +121,13 @@
                 icon="auditoria_cicloviaria_icons/border_flowerbed_ciclo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="No bordo direito de Mão Única"
+            <button type="tag" label="No bordo direito de Via de Mão Única"
                 icon="auditoria_cicloviaria_icons/unidirect_right-removebg-preview.png" />
-            <button type="tag" label="No bordo esquerdo de Mão Única"
+            <button type="tag" label="No bordo esquerdo de Via de Mão Única"
                 icon="auditoria_cicloviaria_icons/unidirect_left-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Em bordo de Mão Dupla"
+            <button type="tag" label="Em bordo de Via de Mão Dupla"
                 icon="auditoria_cicloviaria_icons/bidirect_border-removebg-preview.png" />
             <button type="tag" label="Sobre calçada"
                 icon="auditoria_cicloviaria_icons/pedestrian_with_ciclo-removebg-preview.png" />
@@ -186,7 +186,8 @@
         <row>
             <button type="tag" label="Pintura"
                 icon="auditoria_cicloviaria_icons/paint_divider-removebg-preview.png" />
-            <button />
+            <button type="tag" label="Vasos"
+                icon="auditoria_cicloviaria_icons/flowerbed-removebg-preview.png" />
         </row>
         <row>
             <button type="tag" label="Outro segregador" icon="auditoria_cicloviaria_icons/other.png" />
@@ -212,7 +213,12 @@
                 icon="auditoria_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Terra/Barro"
+            <button type="tag" label="Terra"
+                icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
+            <button />
+        </row>
+        <row>
+            <button type="tag" label="Barro"
                 icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
             <button />
         </row>
@@ -605,21 +611,21 @@
         </row>
         <row>
             <button type="tag"
-                label="Troca lado da estrutura sem redutores de velocidade ou semáforos" />
+                label="Troca lado da estrutura sem redutores de velocidade ou semáforos" icon="" />
         </row>
         <row>
             <button type="tag"
-                label="Conversão à esquerda de automóvel com invisibilidade de ciclista" />
+                label="Conversão à esquerda de automóvel com invisibilidade de ciclista" icon="" />
         </row>
         <row>
-            <button type="tag" label="Fim repentino de estrutura no contrafluxo" />
+            <button type="tag" label="Fim repentino de estrutura no contrafluxo" icon="" />
         </row>
         <row>
-            <button type="tag" label="Outro risco" />
+            <button type="tag" label="Outro risco" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Remover risco 🗑️" />
+            <button type="tag" label="Remover risco 🗑️" icon="" />
         </row>
     </layout>
 
@@ -723,7 +729,7 @@
         </row>
         <row>
             <button type="tag" label="Trave de balé" icon="" />
-            <button type="tag" label="Outro tipo" icon="" />
+            <button type="tag" label="Outro paraciclo" icon="" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
