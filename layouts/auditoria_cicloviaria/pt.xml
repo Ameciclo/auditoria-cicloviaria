@@ -248,7 +248,7 @@
         <row>
             <button type="tag" label="Mais faixas (especificar)"
                 icon="auditoria_cicloviaria_icons/7_lanes-removebg-preview.png" />
-                <button type="textnote" icon="logo_textnote" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Remover Faixas da Via 🗑️" icon="" />
@@ -574,7 +574,7 @@
             <button type="tag" label="Desnível"
                 icon="auditoria_cicloviaria_icons/desalign_bike_lane-removebg-preview.png" />
             <button type="tag" label="Grade alinhada ao pneu"
-            icon="auditoria_cicloviaria_icons/gradealinhada.png"/>
+                icon="auditoria_cicloviaria_icons/gradealinhada.png" />
         </row>
         <row>
             <button type="tag" label="Outro obstáculo" icon="auditoria_cicloviaria_icons/other.png" />
@@ -721,9 +721,11 @@
             <button type="tag" label="Entorta roda" icon="" />
             <button type="tag" label="Açougue" icon="" />
         </row>
-        <button type="tag" label="Trave de balé" icon="" />
-        <button type="tag" label="Outro tipo" icon="" />
-        <button type="textnote" icon="logo_textnote" />
+        <row>
+            <button type="tag" label="Trave de balé" icon="" />
+            <button type="tag" label="Outro tipo" icon="" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
         <row>
             <button type="tag" label="Tem cobertura" icon="" />
             <button type="tag" label="É privado" icon="" />
