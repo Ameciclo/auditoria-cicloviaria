@@ -28,11 +28,11 @@
                 icon="auditoria_cicloviaria_icons/bikeparking.png" />
         </row>
         <row>
+            <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
+                icon="auditoria_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Avaliações" targetlayout="avaliacoes"
+                icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
-        <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
-            icon="auditoria_cicloviaria_icons/flow_direction.png" />
-        <button type="page" label="Avaliações" targetlayout="avaliacoes"
-            icon="auditoria_cicloviaria_icons/sinuosity.png" />
         <row>
             <button type="voicerec" icon="logo_voice" />
             <button type="picture" icon="logo_camera" />
@@ -140,7 +140,7 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Remover Risco 🗑️" icon="" />
+            <button type="tag" label="Remover risco 🗑️" icon="" />
         </row>
     </layout>
 
@@ -604,8 +604,9 @@
         <row>
             <button type="tag" label="Via transversal SEM acesso à ciclovia" />
         </row>
-        <button type="tag" label="Acesso sem uma via transversal" />
-        <row></row>
+        <row>
+            <button type="tag" label="Acesso sem uma via transversal" />
+        </row>
         <row></row>
         <row></row>
         <row>
@@ -763,7 +764,7 @@
 
 
     <!-- PARACICLOS E BICICLETÁRIOS -->
-    <layout name="Bicicletários">
+    <layout name="bicicletarios">
         <row>
             <button type="tag" label="U invertido" icon="" />
             <button type="tag" label="Entorta roda" icon="" />
