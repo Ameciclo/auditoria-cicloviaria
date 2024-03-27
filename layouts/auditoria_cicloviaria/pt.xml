@@ -603,6 +603,7 @@
         <row>
             <button type="tag"
                 label="Trajeto de conversão permite invasão de automóvel de trecho de linha contínua da estrutura"
+                icon=""
             />
         </row>
         <row>
