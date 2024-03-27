@@ -98,7 +98,7 @@
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro obstáculo" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
@@ -136,7 +136,7 @@
             <button type="tag" label="Fim repentino de estrutura no contrafluxo" icon="" />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro risco" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -302,7 +302,7 @@
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro segregador" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -496,7 +496,7 @@
             <button />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro pavimento" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
@@ -659,7 +659,7 @@
             <button type="tag" label="Nenhum elemento de controle de velocidade na via" icon="" />
         </row>
         <row>
-            <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro controle" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
