@@ -215,12 +215,8 @@
         <row>
             <button type="tag" label="Terra"
                 icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
-            <button />
-        </row>
-        <row>
             <button type="tag" label="Barro"
                 icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
-            <button />
         </row>
         <row>
             <button type="tag" label="Outro pavimento" icon="auditoria_cicloviaria_icons/other.png" />
@@ -729,6 +725,10 @@
         </row>
         <row>
             <button type="tag" label="Trave de balé" icon="" />
+            <button type="tag" label="Suspenso na parede" icon="" />
+            <button type="tag" label="Presilha na parede" icon="" />
+        </row>
+        <row>
             <button type="tag" label="Outro paraciclo" icon="" />
             <button type="textnote" icon="logo_textnote" />
         </row>
