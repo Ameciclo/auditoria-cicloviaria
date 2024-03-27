@@ -25,7 +25,7 @@
             <button type="page" label="Iluminação" targetlayout="iluminacao_estrutura_qte"
                 icon="auditoria_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
-                icon="auditoria_cicloviaria_icons/bikeparking.png" />
+                icon="auditoria_cicloviaria_icons/estacionamento.png" />
         </row>
         <row>
             <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
