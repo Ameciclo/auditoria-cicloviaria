@@ -618,11 +618,9 @@
             <button type="tag" label="Fim repentino de estrutura no contrafluxo" icon="" />
         </row>
         <row>
-            <button type="tag" label="" icon="" />
-            <button type="tag" label="" icon="" />
+            <button type="tag" label="Outro risco" icon="auditoria_cicloviaria_icons/other.png" />
         </row>
         <row>
-            <button type="tag" label="Outro risco" icon="" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
