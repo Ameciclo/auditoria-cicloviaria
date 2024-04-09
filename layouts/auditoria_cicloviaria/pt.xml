@@ -706,16 +706,19 @@
     <!-- Page Iluminação da Estrutura - Quantitativo -->
     <layout name="iluminacao_estrutura_qte">
         <row>
-            <button type="tag" label="Registrar iluminação dedicada para ciclistas" />
+            <button type="tag" label="Iluminação dedicada para ciclistas" />
         </row>
         <row>
-            <button type="tag" label="Registrar iluminação geral na via do mesmo lado da estrutura" />
+            <button type="tag" label="Iluminação geral na via do mesmo lado da estrutura" />
         </row>
         <row>
             <button type="tag"
-                label="Registrar iluminação geral na via do outro lado da infraestrutura" />
+                label="Iluminação geral na via do outro lado da infraestrutura" />
         </row>
-        <row></row>
+        <row>
+            <button type="tag"
+                label="Iluminação geral dos dois lados da via" />
+        </row>
         <row></row>
         <row>
             <button type="tag" label="Remover Tipo de Iluminação 🗑️" icon="" />
