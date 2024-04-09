@@ -537,12 +537,6 @@
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
         <row>
-            <button type="tag" label="Em cruzamento BOA condição"
-                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
-            <button type="tag" label="Em cruzamento MÁ condição"
-                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png" />
-        </row>
-        <row>
             <button type="tag" label="Pictograma BOA condição"
                 icon="auditoria_cicloviaria_icons/picto_and_arrow.png" />
             <button type="tag" label="Pictograma MÁ condição"
@@ -553,6 +547,12 @@
                 icon="auditoria_cicloviaria_icons/arrow.png" />
             <button type="tag" label="Seta MÁ condição"
                 icon="auditoria_cicloviaria_icons/arrow-bad.png" />
+        </row>
+        <row>
+            <button type="tag" label="Em cruzamento BOA condição"
+                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
+            <button type="tag" label="Em cruzamento MÁ condição"
+                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png" />
         </row>
         <row>
         </row>
