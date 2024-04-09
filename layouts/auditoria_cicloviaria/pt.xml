@@ -286,7 +286,7 @@
         <row>
             <button type="page" label="Proteção cicloVIAs e FAIXAs" targetlayout="protecao"
                 icon="auditoria_cicloviaria_icons/security-removebg-preview.png" />
-            <button type="page" label="Acesso à cicloVIA" targetlayout="segregadores_avaliacao"
+            <button type="page" label="Acesso de ciclistas à cicloVIA" targetlayout="segregadores_avaliacao"
                 icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
