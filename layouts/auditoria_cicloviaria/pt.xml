@@ -156,7 +156,10 @@
             <button type="tag" label="Mão Inglesa"
                 icon="auditoria_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
         </row>
-        <row></row>
+        <row>
+            <button type="tag" label="Pista dupla"
+                icon="auditoria_cicloviaria_icons/bidirect_road_flow_english_way-removebg-preview.png" />
+        </row>
         <row></row>
         <row>
             <button type="tag" label="Remover Fluxo da Via🗑️" icon="" />
