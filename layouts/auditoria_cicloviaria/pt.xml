@@ -187,7 +187,7 @@
                 icon="auditoria_cicloviaria_icons/beacon_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Pintura"
+            <button type="tag" label="APENAS a Pintura"
                 icon="auditoria_cicloviaria_icons/paint_divider-removebg-preview.png" />
             <button type="tag" label="Vasos"
                 icon="auditoria_cicloviaria_icons/flowerbed-removebg-preview.png" />
