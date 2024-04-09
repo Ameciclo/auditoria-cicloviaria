@@ -354,19 +354,18 @@
     <!-- Página Sinuosidade -->
     <layout name="sinuosidade">
         <row>
-            <button type="tag" label="O traçado é sinuoso, exigindo atenção" />
+            <button type="tag" label="A ciclo é completamente reta." />
         </row>
         <row>
-            <button type="tag" label="O traçado é muito sinuoso, podendo causar colisões" />
+            <button type="tag" label="A ciclo é sinuosa, exigindo atenção" />
+        </row>
+        <row>
+            <button type="tag" label="A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem" />
         </row>
         <row>
             <button type="tag"
-                label="O traçado possui curvas com obstáculos que impedem visualização" />
+                label="A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estruturao" />
         </row>
-        <row>
-            <button type="tag" label="O traçado é muito sinuoso com curvas e obstáculos visuais" />
-        </row>
-        <row></row>
         <row></row>
         <row></row>
         <row>
