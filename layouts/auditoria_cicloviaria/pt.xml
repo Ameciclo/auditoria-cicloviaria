@@ -270,10 +270,10 @@
                 label="Estacionamento dedicado de um lado, segregado da circulação" />
         </row>
         <row>
-            <button type="tag" label="Estacionamento dedicado de um lado, incluso na circulação" />
+            <button type="tag" label="Estacionamento de um lado, incluso na circulação" />
         </row>
         <row>
-            <button type="tag" label="Estacionamento dedicado dos dois lados" />
+            <button type="tag" label="Estacionamento dos dois lados" />
         </row>
         <row>
             <button type="tag" label="Remover Estacionamento 🗑️" icon="" />
