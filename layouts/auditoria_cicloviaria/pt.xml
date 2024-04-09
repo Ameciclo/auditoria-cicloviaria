@@ -286,7 +286,8 @@
         <row>
             <button type="page" label="Proteção cicloVIAs e FAIXAs" targetlayout="protecao"
                 icon="auditoria_cicloviaria_icons/security-removebg-preview.png" />
-            <button type="page" label="Acesso de ciclistas à cicloVIA" targetlayout="segregadores_avaliacao"
+            <button type="page" label="Acesso de ciclistas à cicloVIA"
+                targetlayout="segregadores_avaliacao"
                 icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
@@ -319,7 +320,8 @@
                 label="SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores" />
         </row>
         <row>
-            <button type="tag" label="AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade." />
+            <button type="tag"
+                label="AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade." />
         </row>
         <row>
             <button type="tag" label="AMBAS: NENHUM ou QUASE NENHUM segregador." />
@@ -360,7 +362,8 @@
             <button type="tag" label="A ciclo é sinuosa, exigindo atenção" />
         </row>
         <row>
-            <button type="tag" label="A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem" />
+            <button type="tag"
+                label="A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem" />
         </row>
         <row>
             <button type="tag"
@@ -595,18 +598,10 @@
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Baias de ônibus internas à ciclo" icon="" />
+            <button type="tag" label="Ponto de embarque dos ônibus interrompe a ciclo" icon="" />
         </row>
         <row>
-            <button type="tag"
-                label="Cruzamentos com veículos em curva de ângulo aberto e sem tratamento de redução de velocidade"
-                icon="" />
-        </row>
-        <row>
-            <button type="tag"
-                label="Trajeto de conversão permite invasão de automóvel de trecho de linha contínua da estrutura"
-                icon=""
-            />
+            <button type="tag" label="Ciclo termina deixando ciclista na contramão" icon="" />
         </row>
         <row>
             <button type="tag"
@@ -614,10 +609,18 @@
         </row>
         <row>
             <button type="tag"
-                label="Conversão à esquerda de automóvel com invisibilidade de ciclista" icon="" />
+                label="Cruzamentos em curvas largas ou abertas sem sinalização para diminuir a velocidade."
+                icon="" />
         </row>
         <row>
-            <button type="tag" label="Fim repentino de estrutura no contrafluxo" icon="" />
+            <button type="tag"
+                label="Caminho de conversão que deixa o carro entrar em área de linha contínua da ciclo."
+                icon=""
+            />
+        </row>
+        <row>
+            <button type="tag"
+                label="Ao virar à esquerda com carro, motorista tem dificuldades de ver ciclista." icon="" />
         </row>
         <row>
             <button type="tag" label="Outro risco" icon="auditoria_cicloviaria_icons/other.png" />
