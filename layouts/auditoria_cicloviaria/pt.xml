@@ -312,17 +312,17 @@
     <layout name="protecao">
         <row>
             <button type="tag"
-                label="SE CICLOVIA, segregação impede completamente a invasão de automóvel e não há trechos desprotegidos" />
+                label="SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos" />
         </row>
         <row>
             <button type="tag"
-                label="SE CICLOFAIXA, impossível automóvel invadir a estrutura sem ultrapassar por segregadores" />
+                label="SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores" />
         </row>
         <row>
-            <button type="tag" label="Poucos trechos COM segregadores dificultando invasão" />
+            <button type="tag" label="AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade." />
         </row>
         <row>
-            <button type="tag" label="NENHUM ou QUASE NENHUM segregador dificultando invasão" />
+            <button type="tag" label="AMBAS: NENHUM ou QUASE NENHUM segregador." />
         </row>
         <row></row>
         <row></row>
@@ -335,13 +335,13 @@
     <!-- Página Segregadores Avaliação -->
     <layout name="segregadores_avaliacao">
         <row>
-            <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso" />
+            <button type="tag" label="Segregadores NÃO DIFICULTAM o acesso de ciclistas" />
         </row>
         <row>
-            <button type="tag" label="Segregadores DIFICULTAM o acesso parcialmente" />
+            <button type="tag" label="Segregadores DIFICULTAM o acesso parcialmente de ciclistas" />
         </row>
         <row>
-            <button type="tag" label="Segregadores IMPEDEM o acesso" />
+            <button type="tag" label="Segregadores IMPEDEM o acesso de ciclistas" />
         </row>
         <row></row>
         <row></row>
