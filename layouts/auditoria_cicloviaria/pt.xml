@@ -31,7 +31,7 @@
             <button type="page" label="Iluminação*" targetlayout="iluminacao_estrutura_qte"
                 icon="auditoria_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
-                icon="auditoria_cicloviaria_icons/estacionamento.png" />
+                icon="auditoria_cicloviaria_icons/bicicletarios.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -52,7 +52,7 @@
             <button type="page" label="Localização na Via" targetlayout="localizacao_via"
                 icon="auditoria_cicloviaria_icons/ciclo_location-removebg-preview.png" />
             <button type="page" label="Fluxo da Via*" targetlayout="fluxo-via"
-                icon="auditoria_cicloviaria_icons/road_flow-removebg-preview.png" />
+                icon="auditoria_cicloviaria_icons/road_flow.png" />
         </row>
         <row>
             <button type="page" label="Segregadores" targetlayout="segregadores"
