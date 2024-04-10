@@ -8,9 +8,9 @@
                 icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
-            <button type="page" label="Placas" targetlayout="placas"
+            <button type="page" label="Placas*" targetlayout="placas"
                 icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="page" label="Sinalização Horizontal"
+            <button type="page" label="Sinalização Horizontal*"
                 targetlayout="sinalizacao_horizontal_qte"
                 icon="auditoria_cicloviaria_icons/floor_signaling_arrow-removebg-preview.png" />
             <button type="page" label="Larguras" targetlayout="larguras_estrutura_qte"
@@ -21,14 +21,14 @@
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
                 icon="auditoria_cicloviaria_icons/risk_situation.png" />
-            <button type="page" label="Controle de Velocidade"
+            <button type="page" label="Controle de Velocidade*"
                 targetlayout="controle_de_velocidade_qte"
                 icon="auditoria_cicloviaria_icons/electronic_spine-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Acessos" targetlayout="acesso_ciclovias"
                 icon="auditoria_cicloviaria_icons/bike_lane_access-removebg-preview.png" />
-            <button type="page" label="Iluminação" targetlayout="iluminacao_estrutura_qte"
+            <button type="page" label="Iluminação*" targetlayout="iluminacao_estrutura_qte"
                 icon="auditoria_cicloviaria_icons/bike_lane_ilumination-removebg-preview.png" />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
                 icon="auditoria_cicloviaria_icons/estacionamento.png" />
@@ -43,21 +43,21 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo de Ciclo"
+            <button targetlayout="tipo_da_via" type="page" label="Tipo de Ciclo*"
                 icon="auditoria_cicloviaria_icons/lane_type-removebg-preview.png" />
-            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo"
+            <button type="page" label="Fluxo da Ciclo*" targetlayout="fluxo-ciclo"
                 icon="auditoria_cicloviaria_icons/ciclo_flow-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Localização na Via" targetlayout="localizacao_via"
                 icon="auditoria_cicloviaria_icons/ciclo_location-removebg-preview.png" />
-            <button type="page" label="Fluxo da Via" targetlayout="fluxo-via"
+            <button type="page" label="Fluxo da Via*" targetlayout="fluxo-via"
                 icon="auditoria_cicloviaria_icons/road_flow-removebg-preview.png" />
         </row>
         <row>
             <button type="page" label="Segregadores" targetlayout="segregadores"
                 icon="auditoria_cicloviaria_icons/segregator_type.png" />
-            <button type="page" label="Pavimento" targetlayout="pavimento_caracterizacao"
+            <button type="page" label="Pavimento*" targetlayout="pavimento_caracterizacao"
                 icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
         </row>
         <row>
@@ -303,7 +303,7 @@
                 icon="auditoria_cicloviaria_icons/ciclo_range-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Situação do Pavimento" targetlayout="pavimento_avaliacao"
+            <button type="page" label="Situação do Pavimento*" targetlayout="pavimento_avaliacao"
                 icon="auditoria_cicloviaria_icons/brick_floor-removebg-preview.png" />
             <button />
         </row>
@@ -354,7 +354,7 @@
     </layout>
 
     <!-- Página Sinuosidade -->
-    <layout name="sinuosidade">
+    <layout name="sinuosidade*">
         <row>
             <button type="tag" label="A ciclo é completamente reta." />
         </row>
@@ -377,7 +377,7 @@
     </layout>
 
     <!-- Página Sombreamento -->
-    <layout name="sombreamento">
+    <layout name="sombreamento*">
         <row>
             <button type="tag" label="Sombras em PRATICAMENTE TODA a extensão" />
         </row>
@@ -539,9 +539,9 @@
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
         <row>
-            <button type="tag" label="Pictograma BOA condição"
+            <button type="tag" label="Pictograma BOA condição*"
                 icon="auditoria_cicloviaria_icons/picto_and_arrow.png" />
-            <button type="tag" label="Pictograma MÁ condição"
+            <button type="tag" label="Pictograma MÁ condição*"
                 icon="auditoria_cicloviaria_icons/picto_and_arrow-bad.png" />
         </row>
         <row>
