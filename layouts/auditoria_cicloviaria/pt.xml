@@ -648,7 +648,7 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Faixa de rolamento ao lado da ciclo (cm)" />
+            <button type="tag" label="Faixa de carros logo ao lado da ciclo (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
