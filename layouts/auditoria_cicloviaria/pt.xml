@@ -291,9 +291,9 @@
                 icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinuosidade da estrutura" targetlayout="sinuosidade"
+            <button type="page" label="Sinuosidade da ciclo" targetlayout="sinuosidade"
                 icon="auditoria_cicloviaria_icons/sinuosity-removebg-preview.png" />
-            <button type="page" label="Arborização da estrutura" targetlayout="sombreamento"
+            <button type="page" label="Arborização da ciclo" targetlayout="sombreamento"
                 icon="auditoria_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
@@ -367,7 +367,7 @@
         </row>
         <row>
             <button type="tag"
-                label="A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estruturao" />
+                label="A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura" />
         </row>
         <row></row>
         <row></row>
@@ -486,7 +486,7 @@
             <button type="tag" label="Falhas que demandam redução de velocidade ou parada" />
         </row>
         <row>
-            <button type="tag" label="Buracos grandes que demandam saída da estrutura" />
+            <button type="tag" label="Buracos grandes que demandam saída da ciclo" />
         </row>
         <row>
             <button type="tag" label="Totalmente destruído, impossível transitar" />
@@ -640,19 +640,19 @@
     <!-- Page Largura Caracterização -->
     <layout name="larguras_estrutura_qte">
         <row>
-            <button type="tag" label="Área transitável da estrutura (cm)" />
+            <button type="tag" label="Área transitável da ciclo (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Faixa de amortecimento da estrutura (cm)" />
+            <button type="tag" label="Área de amortecimento da ciclo (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Faixa de rolamento contígua à estrutura (cm)" />
+            <button type="tag" label="Faixa de rolamento ao lado da ciclo (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
-            <button type="tag" label="Total da via incluindo a estrutura (cm)" />
+            <button type="tag" label="Total da via (incluindo a ciclo) (cm)" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
@@ -668,7 +668,7 @@
             <button type="tag" label="Sinalização HORIZONTAL" icon="" />
         </row>
         <row>
-            <button type="tag" label="Travessia de pedestre em nível" icon="" />
+            <button type="tag" label="Travessia de pedestre em nível (lombofaixa)" icon="" />
         </row>
         <row>
             <button type="tag" label="Lombadas físicas" icon="" />
