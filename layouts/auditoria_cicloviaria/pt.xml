@@ -216,10 +216,9 @@
                 icon="auditoria_cicloviaria_icons/paralelepipedo-removebg-preview.png" />
         </row>
         <row>
-            <button type="tag" label="Terra"
+            <button type="tag" label="Terra/Barro"
                 icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
-            <button type="tag" label="Barro"
-                icon="auditoria_cicloviaria_icons/dirt_floor-removebg-preview.png" />
+            <button />
         </row>
         <row>
             <button type="tag" label="Outro pavimento" icon="auditoria_cicloviaria_icons/other.png" />
