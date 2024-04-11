@@ -611,8 +611,6 @@
             <button type="tag"
                 label="Conversão perigosa. EXPLIQUE."
                 icon="" />
-        </row>
-        <row>
             <button type="tag"
                 label="Cruzamento perigoso. EXPLIQUE."
                 icon="" />
@@ -620,14 +618,10 @@
         <row>
             <button type="tag" label="Outro risco. EXPLIQUE."
                 icon="auditoria_cicloviaria_icons/other.png" />
-        </row>
-        <row>
             <button type="voicerec" icon="logo_voice" />
         </row>
         <row>
             <button type="picture" icon="logo_camera" />
-        </row>
-        <row>
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
