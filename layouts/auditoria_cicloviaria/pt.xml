@@ -597,7 +597,7 @@
     <!-- Riscos layout -->
     <layout name="riscos">
         <row>
-            <button type="tag" label="Ponto de embarque dos ônibus interrompe a ciclo" icon="" />
+            <button type="tag" label="Ponto de embarque de ônibus interrompe a ciclo" icon="" />
         </row>
         <row>
             <button type="tag" label="A ciclo termina deixando ciclista na contramão" icon="" />
