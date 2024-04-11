@@ -616,7 +616,7 @@
             <button type="tag"
                 label="Cruzamento perigoso. EXPLIQUE."
                 icon="" />
-            <button type="tag" label="Outro risco" icon="auditoria_cicloviaria_icons/other.png" />
+            <button type="tag" label="Outro risco. EXPLIQUE." icon="auditoria_cicloviaria_icons/other.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
