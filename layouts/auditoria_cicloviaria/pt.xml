@@ -620,11 +620,11 @@
         <row>
             <button type="tag" label="Outro risco. EXPLIQUE."
                 icon="auditoria_cicloviaria_icons/other.png" />
-            <button type="voicerec" icon="logo_voice" />
+            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
+            <button type="voicerec" icon="logo_voice" />
             <button type="picture" icon="logo_camera" />
-            <button type="textnote" icon="logo_textnote" />
         </row>
         <row>
             <button type="tag" label="Remover risco 🗑️" icon="" />
