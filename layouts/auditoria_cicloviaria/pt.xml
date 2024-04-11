@@ -598,16 +598,12 @@
     <layout name="riscos">
         <row>
             <button type="tag" label="Ponto de embarque dos ônibus interrompe a ciclo" icon="" />
-        </row>
-        <row>
             <button type="tag" label="A ciclo termina deixando ciclista na contramão" icon="" />
         </row>
         <row>
             <button type="tag"
                 label="A ciclo troca de lado na via, sem redutores de velocidade ou semáforos"
                 icon="" />
-        </row>
-        <row>
             <button type="tag"
                 label="Conversão com curvas largas ou abertas, sem sinalização para os carros diminuirem a velocidade."
                 icon="" />
@@ -617,8 +613,6 @@
                 label="A conversão deixa o carro entrar em área de linha contínua da ciclo."
                 icon=""
             />
-        </row>
-        <row>
             <button type="tag"
                 label="Cruzamento perigoso. EXPLIQUE."
                 icon="" />
