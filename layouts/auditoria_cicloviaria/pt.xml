@@ -600,7 +600,7 @@
             <button type="tag" label="Ponto de embarque de ônibus interrompe a ciclo" icon="" />
         </row>
         <row>
-            <button type="tag" label="A ciclo termina deixando ciclista na contramão" icon="" />
+            <button type="tag" label="Termina ciclo com ciclista na contramão" icon="" />
         </row>
         <row>
             <button type="tag"
@@ -609,14 +609,8 @@
         </row>
         <row>
             <button type="tag"
-                label="Conversão com curvas largas ou abertas, sem sinalização para os carros diminuirem a velocidade."
+                label="Conversão perigosa. EXPLIQUE."
                 icon="" />
-        </row>
-        <row>
-            <button type="tag"
-                label="A conversão deixa o carro entrar em área de linha contínua da ciclo."
-                icon=""
-            />
         </row>
         <row>
             <button type="tag"
@@ -626,10 +620,14 @@
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
+        </row>
+        <row>
             <button type="picture" icon="logo_camera" />
         </row>
         <row>
             <button type="textnote" icon="logo_textnote" />
+        </row>
+        <row>
             <button type="tag" label="Remover risco 🗑️" icon="" />
         </row>
     </layout>
