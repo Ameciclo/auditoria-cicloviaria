@@ -290,9 +290,9 @@
                 icon="auditoria_cicloviaria_icons/yellow_brick_large_divider-removebg-preview.png" />
         </row>
         <row>
-            <button type="page" label="Sinuosidade da ciclo" targetlayout="sinuosidade"
+            <button type="page" label="Sinuosidade da ciclo*" targetlayout="sinuosidade"
                 icon="auditoria_cicloviaria_icons/sinuosity-removebg-preview.png" />
-            <button type="page" label="Arborização da ciclo" targetlayout="sombreamento"
+            <button type="page" label="Arborização*" targetlayout="sombreamento"
                 icon="auditoria_cicloviaria_icons/shading-removebg-preview.png" />
         </row>
         <row>
@@ -353,7 +353,7 @@
     </layout>
 
     <!-- Página Sinuosidade -->
-    <layout name="sinuosidade*">
+    <layout name="sinuosidade">
         <row>
             <button type="tag" label="A ciclo é completamente reta." />
         </row>
@@ -376,7 +376,7 @@
     </layout>
 
     <!-- Página Sombreamento -->
-    <layout name="sombreamento*">
+    <layout name="sombreamento">
         <row>
             <button type="tag" label="Sombras em PRATICAMENTE TODA a extensão" />
         </row>
