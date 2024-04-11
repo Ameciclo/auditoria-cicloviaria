@@ -611,6 +611,8 @@
             <button type="tag"
                 label="Conversão perigosa. EXPLIQUE."
                 icon="" />
+        </row>
+        <row>
             <button type="tag"
                 label="Cruzamento perigoso. EXPLIQUE."
                 icon="" />
