@@ -72,9 +72,9 @@
     <layout name="tipo_da_via">
         <row>
             <button type="tag" label="Ciclovia"
-                icon="auditoria_cicloviaria_icons/ciclo_lane.png" />
+                icon="auditoria_cicloviaria_icons/ciclo_way.png" />
             <button type="tag" label="Ciclofaixa"
-                icon="auditoria_cicloviaria_icons/ciclo_range.png" />
+                icon="auditoria_cicloviaria_icons/ciclo_lane.png" />
         </row>
         <row>
             <button type="tag" label="Ciclorrota"
@@ -287,7 +287,7 @@
                 icon="auditoria_cicloviaria_icons/security.png" />
             <button type="page" label="Acesso de ciclistas à cicloVIA"
                 targetlayout="segregadores_avaliacao"
-                icon="auditoria_cicloviaria_icons/yellow_brick_large_divider_way.png" />
+                icon="auditoria_cicloviaria_icons/yellow_brick_large_divider.png" />
         </row>
         <row>
             <button type="page" label="Sinuosidade da ciclo" targetlayout="sinuosidade"
