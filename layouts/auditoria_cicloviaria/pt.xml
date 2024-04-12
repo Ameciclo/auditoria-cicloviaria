@@ -293,7 +293,7 @@
             <button type="page" label="Sinuosidade da ciclo" targetlayout="sinuosidade"
                 icon="auditoria_cicloviaria_icons/sinuosity_route.png" />
             <button type="page" label="Arborização" targetlayout="sombreamento"
-                icon="auditoria_cicloviaria_icons/shading_route.png" />
+                icon="auditoria_cicloviaria_icons/shadow_route.png" />
         </row>
         <row>
             <button type="page" label="Situação da pintura" targetlayout="pintura_vermelha_situacao"
@@ -663,7 +663,7 @@
     <!-- Page Controle de Velocidade -->
     <layout name="controle_de_velocidade_qte">
         <row>
-            <button type="tag" label="Sinalização HORIZONTAL" icon="" />
+            <button type="tag" label="Sinalização horizontal de velocidade" icon="" />
         </row>
         <row>
             <button type="tag" label="Travessia de pedestre em nível (lombofaixa)" icon="" />
