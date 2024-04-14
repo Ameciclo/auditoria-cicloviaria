@@ -28,8 +28,7 @@
         <row>
             <button type="page" label="Acessos" targetlayout="acesso_ciclovias"
                 icon="auditoria_cicloviaria_icons/bike_lane_access.png" />
-            <button type="page" label="Iluminação" targetlayout="iluminacao_estrutura_qte"
-                icon="auditoria_cicloviaria_icons/bike_lane_ilumination_route.png" />
+            <button />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
                 icon="auditoria_cicloviaria_icons/bicicletarios.png" />
         </row>
@@ -43,10 +42,10 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo de Ciclo"
+            <button targetlayout="tipo_da_via" type="page" label="Tipo e Fluxo"
                 icon="auditoria_cicloviaria_icons/lane_type_route.png" />
-            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo"
-                icon="auditoria_cicloviaria_icons/ciclo_flow_route.png" />
+            <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao"
+                icon="auditoria_cicloviaria_icons/ciclo_range.png" />
         </row>
         <row>
             <button type="page" label="Localização na Via" targetlayout="localizacao_via"
@@ -65,6 +64,7 @@
                 icon="auditoria_cicloviaria_icons/road_lane_route.png" />
             <button type="page" label="Estacionamento na via" targetlayout="estacionamento_na_via"
                 icon="auditoria_cicloviaria_icons/estacionamento_route.png" />
+
         </row>
     </layout>
 
@@ -82,9 +82,18 @@
             <button type="tag" label="Calçada compartilhada"
                 icon="auditoria_cicloviaria_icons/shared_sidewalk.png" />
         </row>
-        <row></row>
-        <row></row>
-        <row></row>
+        <row>
+            <button type="tag" label="Unidirecional no Fluxo"
+                icon="auditoria_cicloviaria_icons/unidirect_flow.png" />
+            <button type="tag" label="Bidirecional"
+                icon="auditoria_cicloviaria_icons/bidirect.png" />
+        </row>
+        <row>
+            <button type="tag" label="Unidirecional no Contrafluxo"
+                icon="auditoria_cicloviaria_icons/unidirect_unflow.png" />
+            <button type="tag" label="Bidirecional com Mão Inglesa"
+                icon="auditoria_cicloviaria_icons/bidirect_english_way.png" />
+        </row>
         <row>
             <button type="tag" label="Remover Tipo de Ciclo 🗑️" icon="" />
         </row>
@@ -93,6 +102,8 @@
     <!-- Fluxo da estrutura-->
     <layout name="fluxo-ciclo">
         <row>
+            <button type="page" label="Fluxo da Ciclo" targetlayout="fluxo-ciclo"
+                icon="auditoria_cicloviaria_icons/ciclo_flow_route.png" />
             <button type="tag" label="Unidirecional no Fluxo"
                 icon="auditoria_cicloviaria_icons/unidirect_flow.png" />
             <button type="tag" label="Bidirecional"
@@ -298,12 +309,12 @@
         <row>
             <button type="page" label="Situação da pintura" targetlayout="pintura_vermelha_situacao"
                 icon="auditoria_cicloviaria_icons/paint_divider.png" />
-            <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao"
-                icon="auditoria_cicloviaria_icons/ciclo_range.png" />
-        </row>
-        <row>
             <button type="page" label="Situação do Pavimento" targetlayout="pavimento_avaliacao"
                 icon="auditoria_cicloviaria_icons/brick_floor_route.png" />
+        </row>
+        <row>
+            <button type="page" label="Iluminação" targetlayout="iluminacao_estrutura_qte"
+                icon="auditoria_cicloviaria_icons/bike_lane_ilumination_route.png" />
             <button />
         </row>
     </layout>
@@ -663,7 +674,7 @@
     <!-- Page Controle de Velocidade -->
     <layout name="controle_de_velocidade_qte">
         <row>
-            <button type="tag" label="Sinalização horizontal de velocidade" icon="" />
+            <button type="tag" label="Pintura da velocidade no piso" icon="" />
         </row>
         <row>
             <button type="tag" label="Travessia de pedestre em nível (lombofaixa)" icon="" />
