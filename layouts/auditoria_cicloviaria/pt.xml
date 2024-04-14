@@ -21,14 +21,13 @@
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
                 icon="auditoria_cicloviaria_icons/risk_situation.png" />
+        </row>
+        <row>
             <button type="page" label="Controle de Velocidade"
                 targetlayout="controle_de_velocidade_qte"
                 icon="auditoria_cicloviaria_icons/electronic_spine_route.png" />
-        </row>
-        <row>
             <button type="page" label="Acessos" targetlayout="acesso_ciclovias"
                 icon="auditoria_cicloviaria_icons/bike_lane_access.png" />
-            <button />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
                 icon="auditoria_cicloviaria_icons/bicicletarios.png" />
         </row>
@@ -42,16 +41,16 @@
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
         <row>
-            <button targetlayout="tipo_da_via" type="page" label="Tipo e Fluxo"
+            <button targetlayout="tipo_da_via" type="page" label="Tipo e Fluxo da Ciclo"
                 icon="auditoria_cicloviaria_icons/lane_type_route.png" />
-            <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao"
-                icon="auditoria_cicloviaria_icons/ciclo_range.png" />
-        </row>
-        <row>
             <button type="page" label="Localização na Via" targetlayout="localizacao_via"
                 icon="auditoria_cicloviaria_icons/ciclo_location.png" />
+        </row>
+        <row>
             <button type="page" label="Fluxo da Via" targetlayout="fluxo-via"
                 icon="auditoria_cicloviaria_icons/road_flow_route.png" />
+            <button type="page" label="Padrão de pintura" targetlayout="pintura_vermelha_padrao"
+                icon="auditoria_cicloviaria_icons/ciclo_range.png" />
         </row>
         <row>
             <button type="page" label="Segregadores" targetlayout="segregadores"
