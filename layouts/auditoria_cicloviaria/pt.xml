@@ -21,8 +21,8 @@
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
                 icon="auditoria_cicloviaria_icons/risk_situation.png" />
-            <button type="page" label="Cruzamentos" targetlayout="obstaculos"
-                icon="auditoria_cicloviaria_icons/obstacle.png" />
+            <button type="page" label="Cruzamentos" targetlayout="cruzamentos"
+                icon="auditoria_cicloviaria_icons/dangerous_intersection.png" />
         </row>
         <row>
             <button type="page" label="Controle de Velocidade"
@@ -39,6 +39,41 @@
             <button type="textnote" icon="logo_textnote" />
         </row>
     </layout>
+
+    <!-- cruzamentos -->
+    <layout name="cruzamentos">
+        <row>
+            <button type="tag" label="Semáforo exclusivo"
+                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
+            <button type="tag" label="SEM Semáforo"
+                icon="auditoria_cicloviaria_icons/no_bicicle_traffic_light.png" />
+        </row>
+        <row>
+            <button type="tag" label="Pintura do cruzamento BOA condição"
+                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
+            <button type="tag" label="Pintura do cruzamento MÁ condição"
+                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png" />
+            <button type="tag" label="SEM pintura no cruzamento"
+                icon="auditoria_cicloviaria_icons/no_horizontal_crossing_signs.png" />
+        </row>
+        <row>
+            <button type="tag"
+                label="Cruzamento perigoso. EXPLIQUE."
+                icon="" />
+            <button type="tag"
+                label="Outras características. EXPLIQUE."
+                icon="" />
+            <button type="tag"
+                label="Ausência de conexão entre ciclos."
+                icon="" />
+        </row>
+        <row>
+            <button type="voicerec" icon="logo_voice" />
+            <button type="picture" icon="logo_camera" />
+            <button type="textnote" icon="logo_textnote" />
+        </row>
+    </layout>
+
 
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
@@ -337,7 +372,10 @@
         <row>
             <button type="tag" label="AMBAS: NENHUM ou QUASE NENHUM segregador." />
         </row>
-        <row></row>
+        <row>
+            <button type="tag"
+                label="Marcação EXTRA: Foram observados trechos com segregadores faltando (arrancados)." />
+        </row>
         <row></row>
         <row></row>
         <row>
