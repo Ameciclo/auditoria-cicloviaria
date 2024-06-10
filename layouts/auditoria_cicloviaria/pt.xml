@@ -8,7 +8,7 @@
                 icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
-            <button type="page" label="Placas" targetlayout="placas"
+            <button type="page" label="Sinalização Vertical" targetlayout="placas"
                 icon="auditoria_cicloviaria_icons/on_way_vertical_sign_route.png" />
             <button type="page" label="Sinalização Horizontal"
                 targetlayout="sinalizacao_horizontal_qte"
@@ -16,7 +16,7 @@
             <button type="page" label="Larguras" targetlayout="larguras_estrutura_qte"
                 icon="auditoria_cicloviaria_icons/metrics.png" />
         </row>
-        <row>
+        <row>to
             <button type="page" label="Obstáculos" targetlayout="obstaculos"
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
