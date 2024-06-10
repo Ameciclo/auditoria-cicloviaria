@@ -16,17 +16,19 @@
             <button type="page" label="Larguras" targetlayout="larguras_estrutura_qte"
                 icon="auditoria_cicloviaria_icons/metrics.png" />
         </row>
-        <row>to
+        <row>
             <button type="page" label="Obstáculos" targetlayout="obstaculos"
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
                 icon="auditoria_cicloviaria_icons/risk_situation.png" />
+            <button type="page" label="Cruzamentos" targetlayout="obstaculos"
+                icon="auditoria_cicloviaria_icons/obstacle.png" />
         </row>
         <row>
             <button type="page" label="Controle de Velocidade"
                 targetlayout="controle_de_velocidade_qte"
                 icon="auditoria_cicloviaria_icons/electronic_spine_route.png" />
-            <button type="page" label="Acessos" targetlayout="acesso_ciclovias"
+            <button type="page" label="Acessos à cicloVIAS" targetlayout="acesso_ciclovias"
                 icon="auditoria_cicloviaria_icons/bike_lane_access.png" />
             <button type="page" label="Bicicletários" targetlayout="bicicletarios"
                 icon="auditoria_cicloviaria_icons/bicicletarios.png" />
