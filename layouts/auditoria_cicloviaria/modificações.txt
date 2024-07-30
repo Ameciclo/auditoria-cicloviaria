@@ -1,0 +1,25 @@
+ESPECIFICAÇÕES DE MUDANÇAS NO OSMTRACKER
+
+>> Criar tela "Semáforos" (se possível for e concordares; se não for desconsidere todo ou parte do item a seguir)
+
+>> Na Tela "Semaforos" colocar os botões:
+. "Com semáforo exclusivo"
+. "Sem semáforo exclusivo"
+. "Semáforo para motorizados" (esse botão acho que tinha antes; talvez seja interessante pra registrar que tem pra carros, mas não tem pra bici)
+. "Semáforo para pedestres" (esse você mencionou, não sei se precisa; de qq forma, não entra na avaliação)
+
+>> Na tela "Cruzamentos" retirar os botões:
+. "Com semáforo exclusivo"
+. "Sem semáforo exclusivo"
+
+>> Na tela "Sinalização vertical":
+. Retirar o botão "Semáforo exclusivo"
+. Inserir botão A30
+. Inserir botão R36
+
+>> Na tela "Sinalização horizontal" retirar os botões:
+. "Em cruzamento boa condição"
+. "Em cruzamento má condição"
+
+>> Na tela "Proteção ciclovias e ciclofaixas" inserir botão:
+. "Ambas: Alguns trechos sem segregadores. Automóvel consegue passar por entre estes com facilidade"

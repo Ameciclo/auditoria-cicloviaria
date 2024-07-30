@@ -43,12 +43,6 @@
     <!-- cruzamentos -->
     <layout name="cruzamentos">
         <row>
-            <button type="tag" label="Semáforo exclusivo"
-                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
-            <button type="tag" label="SEM Semáforo"
-                icon="auditoria_cicloviaria_icons/no_bicicle_traffic_light.png" />
-        </row>
-        <row>
             <button type="tag" label="Pintura do cruzamento BOA condição"
                 icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
             <button type="tag" label="Pintura do cruzamento MÁ condição"
@@ -74,6 +68,21 @@
         </row>
     </layout>
 
+    <!-- semaforos -->
+    <layout name="semaforos">
+        <row>
+            <button type="tag" label="COM Semáforo exclusivo"
+                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
+            <button type="tag" label="SEM Semáforo exclusivo"
+                icon="auditoria_cicloviaria_icons/no_bicicle_traffic_light.png" />
+        </row>
+        <row>
+            <button type="tag" label="Semáforo para motorizado"
+                icon="auditoria_cicloviaria_icons/common_traffic_light.png" />
+            <button type="tag" label="Semáforo para pedestres"
+                icon="auditoria_cicloviaria_icons/walker_traffic_light.png" />
+        </row>
+    </layout>
 
     <!-- Caracterização layout -->
     <layout name="caracterizacao-ciclo">
@@ -367,6 +376,10 @@
         </row>
         <row>
             <button type="tag"
+                label="Ambas: Alguns trechos sem segregadores. Automóvel consegue passar por entre estes com facilidade" />
+        </row>
+        <row>
+            <button type="tag"
                 label="AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade." />
         </row>
         <row>
@@ -376,7 +389,6 @@
             <button type="tag"
                 label="Marcação EXTRA: Foram observados trechos com segregadores faltando (arrancados)." />
         </row>
-        <row></row>
         <row></row>
         <row>
             <button type="tag" label="Remover Avaliação de Proteção 🗑️" icon="" />
@@ -554,16 +566,16 @@
                 icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />
             <button type="tag" label="A-30"
                 icon="auditoria_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar"
-                icon="auditoria_cicloviaria_icons/complementary_plate.png" />
+            <button type="tag" label="R-36"
+                icon="auditoria_cicloviaria_icons/pedestrian_cyclist_sign.png" />
         </row>
         <row>
             <button type="tag" label="Início"
                 icon="auditoria_cicloviaria_icons/bike_lane_start.png" />
             <button type="tag" label="Fim"
                 icon="auditoria_cicloviaria_icons/bike_lane_end.png" />
-            <button type="tag" label="Semáforo exclusivo"
-                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
+            <button type="tag" label="Complementar"
+                icon="auditoria_cicloviaria_icons/complementary_plate.png" />
         </row>
         <row>
             <button type="tag" label="20km/h"
@@ -598,12 +610,6 @@
                 icon="auditoria_cicloviaria_icons/arrow_route.png" />
             <button type="tag" label="Seta MÁ condição"
                 icon="auditoria_cicloviaria_icons/arrow-bad_route.png" />
-        </row>
-        <row>
-            <button type="tag" label="Em cruzamento BOA condição"
-                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs.png" />
-            <button type="tag" label="Em cruzamento MÁ condição"
-                icon="auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png" />
         </row>
         <row>
         </row>
