@@ -6,6 +6,8 @@
                 icon="auditoria_cicloviaria_icons/flow_direction.png" />
             <button type="page" label="Avaliações" targetlayout="avaliacoes"
                 icon="auditoria_cicloviaria_icons/sinuosity.png" />
+            <button type="page" label="Semáforos" targetlayout="semaforos"
+                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
         </row>
         <row>
             <button type="page" label="Sinalização Vertical" targetlayout="placas"
